@@ -1,0 +1,501 @@
+consult_order_id,encounter_id,requesting_provider_id,requesting_provider_specialty,target_specialty,order_timestamp,priority,order_status
+CONS-0000001,ENC-006253,DOC-00175,General Surgery,Nephrology,2024-11-19 06:09:38,Routine,Completed
+CONS-0000002,ENC-006253,DOC-00175,Emergency Medicine,Oncology,2024-11-19 06:45:23,Routine,Completed
+CONS-0000003,ENC-006253,DOC-00175,Hospitalist,Infectious Disease,2024-11-15 08:25:00,Routine,Completed
+CONS-0000004,ENC-006253,DOC-00175,General Surgery,Nephrology,2024-11-18 18:55:21,Routine,Cancelled
+CONS-0000005,ENC-006253,DOC-00175,Internal Medicine,Neurology,2024-11-13 13:05:20,Routine,Completed
+CONS-0000006,ENC-006253,DOC-00175,Emergency Medicine,Psychiatry,2024-11-17 18:12:28,Urgent,Cancelled
+CONS-0000007,ENC-004685,DOC-00155,Emergency Medicine,Infectious Disease,2025-06-22 23:54:39,Routine,Completed
+CONS-0000008,ENC-004685,DOC-00155,Hospitalist,Psychiatry,2025-06-27 07:30:32,Routine,Completed
+CONS-0000009,ENC-004685,DOC-00155,Hospitalist,Gastroenterology,2025-06-23 22:04:36,Routine,Cancelled
+CONS-0000010,ENC-001732,DOC-00054,Hospitalist,Pulmonology,2025-01-14 01:19:31,Urgent,Completed
+CONS-0000011,ENC-001732,DOC-00054,Emergency Medicine,Oncology,2025-01-14 05:01:57,Routine,Completed
+CONS-0000012,ENC-001732,DOC-00054,General Surgery,Palliative Care,2025-01-14 19:42:14,STAT,Completed
+CONS-0000013,ENC-001732,DOC-00054,Emergency Medicine,Pulmonology,2025-01-18 00:33:35,STAT,Completed
+CONS-0000014,ENC-001732,DOC-00054,Hospitalist,Pulmonology,2025-01-13 21:49:57,Urgent,Completed
+CONS-0000015,ENC-001732,DOC-00054,Family Medicine,Oncology,2025-01-13 02:09:52,Routine,Pending
+CONS-0000016,ENC-004743,DOC-00084,Emergency Medicine,Cardiology,2024-07-30 23:59:40,Routine,Completed
+CONS-0000017,ENC-004743,DOC-00084,Emergency Medicine,Nephrology,2024-07-30 14:49:07,Routine,Completed
+CONS-0000018,ENC-004743,DOC-00084,Family Medicine,Oncology,2024-08-02 14:41:27,Urgent,Completed
+CONS-0000019,ENC-004743,DOC-00084,Emergency Medicine,Nephrology,2024-07-31 21:22:36,Routine,Completed
+CONS-0000020,ENC-004743,DOC-00084,Emergency Medicine,Neurology,2024-07-28 08:57:27,Routine,Completed
+CONS-0000021,ENC-004743,DOC-00084,Emergency Medicine,Cardiology,2024-07-31 05:43:26,Routine,Cancelled
+CONS-0000022,ENC-004522,DOC-00188,General Surgery,Pulmonology,2025-03-03 13:05:18,Routine,Completed
+CONS-0000023,ENC-004522,DOC-00188,Hospitalist,Pulmonology,2025-03-03 14:27:53,Routine,Completed
+CONS-0000024,ENC-004522,DOC-00188,Hospitalist,Nephrology,2025-03-04 00:11:05,Routine,Completed
+CONS-0000025,ENC-004522,DOC-00188,Family Medicine,Pulmonology,2025-03-03 21:02:51,Urgent,Completed
+CONS-0000026,ENC-004522,DOC-00188,Family Medicine,Pulmonology,2025-03-03 15:50:46,Routine,Completed
+CONS-0000027,ENC-004522,DOC-00188,General Surgery,Infectious Disease,2025-03-03 15:08:26,Routine,Completed
+CONS-0000028,ENC-004522,DOC-00188,Internal Medicine,Gastroenterology,2025-03-03 10:15:47,Routine,Completed
+CONS-0000029,ENC-004522,DOC-00188,Hospitalist,Infectious Disease,2025-03-04 00:15:26,Routine,Completed
+CONS-0000030,ENC-006341,DOC-00076,General Surgery,Neurology,2024-07-26 21:25:46,Urgent,Completed
+CONS-0000031,ENC-006341,DOC-00076,General Surgery,Gastroenterology,2024-07-27 08:18:20,Routine,Completed
+CONS-0000032,ENC-006341,DOC-00076,Internal Medicine,Pulmonology,2024-07-26 20:54:29,Urgent,Completed
+CONS-0000033,ENC-006341,DOC-00076,Internal Medicine,Orthopedics,2024-07-28 00:51:02,Routine,Completed
+CONS-0000034,ENC-006341,DOC-00076,Hospitalist,Pulmonology,2024-07-27 09:25:30,STAT,Completed
+CONS-0000035,ENC-006341,DOC-00076,Internal Medicine,Palliative Care,2024-07-26 02:26:07,Urgent,Completed
+CONS-0000036,ENC-000577,DOC-00106,General Surgery,Orthopedics,2025-11-04 23:27:25,Routine,Completed
+CONS-0000037,ENC-000577,DOC-00106,Internal Medicine,Oncology,2025-11-05 02:10:54,Routine,Completed
+CONS-0000038,ENC-000577,DOC-00106,Internal Medicine,Palliative Care,2025-11-05 08:52:51,Routine,Completed
+CONS-0000039,ENC-005203,DOC-00121,Internal Medicine,Infectious Disease,2025-09-08 04:07:10,Urgent,Cancelled
+CONS-0000040,ENC-005203,DOC-00121,Family Medicine,Oncology,2025-09-09 06:11:09,Routine,Completed
+CONS-0000041,ENC-005203,DOC-00121,Family Medicine,Orthopedics,2025-09-09 00:42:20,Routine,Completed
+CONS-0000042,ENC-005203,DOC-00121,Internal Medicine,Palliative Care,2025-09-09 21:36:54,Urgent,Completed
+CONS-0000043,ENC-005203,DOC-00121,Emergency Medicine,Nephrology,2025-09-09 08:19:36,Routine,Completed
+CONS-0000044,ENC-006364,DOC-00021,Emergency Medicine,Orthopedics,2024-02-17 11:37:45,Routine,Cancelled
+CONS-0000045,ENC-006364,DOC-00021,Hospitalist,Palliative Care,2024-02-17 13:30:51,Routine,Completed
+CONS-0000046,ENC-006364,DOC-00021,Emergency Medicine,Psychiatry,2024-02-17 08:17:46,Urgent,Completed
+CONS-0000047,ENC-006364,DOC-00021,General Surgery,Cardiology,2024-02-16 22:34:18,Urgent,Cancelled
+CONS-0000048,ENC-006364,DOC-00021,Family Medicine,Palliative Care,2024-02-17 03:49:54,Routine,Completed
+CONS-0000049,ENC-006364,DOC-00021,Family Medicine,Gastroenterology,2024-02-17 09:13:30,Routine,Completed
+CONS-0000050,ENC-006364,DOC-00021,Emergency Medicine,Psychiatry,2024-02-16 19:58:57,Routine,Completed
+CONS-0000051,ENC-000440,DOC-00189,Hospitalist,Nephrology,2025-05-28 09:08:30,Urgent,Completed
+CONS-0000052,ENC-000440,DOC-00189,General Surgery,Orthopedics,2025-05-30 05:20:28,Routine,Completed
+CONS-0000053,ENC-000440,DOC-00189,General Surgery,Neurology,2025-05-28 01:43:39,Routine,Completed
+CONS-0000054,ENC-002751,DOC-00117,Family Medicine,Pulmonology,2024-03-11 14:29:37,Urgent,Completed
+CONS-0000055,ENC-002751,DOC-00117,General Surgery,Neurology,2024-03-12 06:50:43,Urgent,Completed
+CONS-0000056,ENC-002751,DOC-00117,Family Medicine,Nephrology,2024-03-11 06:44:29,Routine,Completed
+CONS-0000057,ENC-007488,DOC-00123,Hospitalist,Infectious Disease,2024-09-04 14:30:50,Routine,Completed
+CONS-0000058,ENC-007488,DOC-00123,General Surgery,Orthopedics,2024-09-05 03:39:24,Urgent,Completed
+CONS-0000059,ENC-005273,DOC-00024,General Surgery,Nephrology,2024-03-28 15:43:37,Routine,Completed
+CONS-0000060,ENC-005273,DOC-00024,Hospitalist,Infectious Disease,2024-03-26 10:45:12,STAT,Completed
+CONS-0000061,ENC-005273,DOC-00024,Family Medicine,Neurology,2024-03-31 00:02:54,Routine,Completed
+CONS-0000062,ENC-005273,DOC-00024,General Surgery,Nephrology,2024-03-30 11:47:00,Routine,Cancelled
+CONS-0000063,ENC-005273,DOC-00024,Hospitalist,Nephrology,2024-03-30 06:15:15,Urgent,Completed
+CONS-0000064,ENC-005654,DOC-00064,Hospitalist,Oncology,2024-07-19 18:56:50,Urgent,Completed
+CONS-0000065,ENC-005654,DOC-00064,Internal Medicine,Infectious Disease,2024-07-20 21:18:36,Urgent,Completed
+CONS-0000066,ENC-005654,DOC-00064,General Surgery,Palliative Care,2024-07-20 07:40:04,Routine,Completed
+CONS-0000067,ENC-005654,DOC-00064,Hospitalist,Psychiatry,2024-07-19 21:31:49,Urgent,Completed
+CONS-0000068,ENC-005654,DOC-00064,Hospitalist,Oncology,2024-07-20 10:32:35,Urgent,Completed
+CONS-0000069,ENC-004000,DOC-00161,Family Medicine,Neurology,2024-05-25 05:49:30,Routine,Completed
+CONS-0000070,ENC-004000,DOC-00161,Emergency Medicine,Neurology,2024-05-26 23:04:30,Routine,Completed
+CONS-0000071,ENC-004000,DOC-00161,General Surgery,Psychiatry,2024-05-29 13:16:42,Routine,Cancelled
+CONS-0000072,ENC-004000,DOC-00161,Internal Medicine,Oncology,2024-05-31 00:08:08,Urgent,Completed
+CONS-0000073,ENC-004000,DOC-00161,Family Medicine,Gastroenterology,2024-05-29 23:41:12,Routine,Completed
+CONS-0000074,ENC-004000,DOC-00161,General Surgery,Psychiatry,2024-05-31 11:46:33,Routine,Cancelled
+CONS-0000075,ENC-006034,DOC-00120,Emergency Medicine,Palliative Care,2025-10-16 08:19:06,Routine,Completed
+CONS-0000076,ENC-000583,DOC-00114,Emergency Medicine,Nephrology,2025-04-18 00:57:57,Routine,Completed
+CONS-0000077,ENC-000583,DOC-00114,General Surgery,Palliative Care,2025-04-21 12:31:06,Routine,Completed
+CONS-0000078,ENC-000583,DOC-00114,Family Medicine,Neurology,2025-04-23 18:07:13,Urgent,Completed
+CONS-0000079,ENC-000583,DOC-00114,Internal Medicine,Gastroenterology,2025-04-24 08:16:00,Urgent,Completed
+CONS-0000080,ENC-000583,DOC-00114,Family Medicine,Orthopedics,2025-04-21 03:45:20,Routine,Completed
+CONS-0000081,ENC-000583,DOC-00114,General Surgery,Neurology,2025-04-25 03:30:43,Routine,Cancelled
+CONS-0000082,ENC-000583,DOC-00114,Emergency Medicine,Cardiology,2025-04-19 07:12:16,Urgent,Completed
+CONS-0000083,ENC-009931,DOC-00165,Hospitalist,Orthopedics,2025-04-28 10:43:35,Routine,Completed
+CONS-0000084,ENC-009931,DOC-00165,Hospitalist,Pulmonology,2025-04-26 08:29:10,Urgent,Completed
+CONS-0000085,ENC-009931,DOC-00165,Family Medicine,Oncology,2025-04-30 14:45:47,Routine,Completed
+CONS-0000086,ENC-009931,DOC-00165,General Surgery,Infectious Disease,2025-04-25 11:48:06,Routine,Completed
+CONS-0000087,ENC-009931,DOC-00165,Emergency Medicine,Neurology,2025-04-27 23:09:06,Routine,Completed
+CONS-0000088,ENC-009931,DOC-00165,Emergency Medicine,Palliative Care,2025-04-27 22:56:08,Routine,Completed
+CONS-0000089,ENC-007052,DOC-00129,Family Medicine,Neurology,2025-01-12 13:38:13,Routine,Completed
+CONS-0000090,ENC-007052,DOC-00129,Emergency Medicine,Infectious Disease,2025-01-10 16:55:35,Routine,Completed
+CONS-0000091,ENC-007052,DOC-00129,General Surgery,Psychiatry,2025-01-11 10:16:58,Routine,Completed
+CONS-0000092,ENC-007052,DOC-00129,Family Medicine,Nephrology,2025-01-11 17:01:53,Routine,Completed
+CONS-0000093,ENC-007052,DOC-00129,Hospitalist,Oncology,2025-01-10 18:16:25,Urgent,Completed
+CONS-0000094,ENC-008159,DOC-00124,General Surgery,Cardiology,2024-05-29 12:56:42,Routine,Pending
+CONS-0000095,ENC-008159,DOC-00124,General Surgery,Orthopedics,2024-05-30 07:37:38,Routine,Completed
+CONS-0000096,ENC-008159,DOC-00124,Hospitalist,Psychiatry,2024-05-31 09:43:55,Routine,Completed
+CONS-0000097,ENC-008159,DOC-00124,General Surgery,Orthopedics,2024-05-30 03:53:01,Urgent,Completed
+CONS-0000098,ENC-008159,DOC-00124,Family Medicine,Oncology,2024-05-29 18:13:08,Routine,Completed
+CONS-0000099,ENC-008159,DOC-00124,Hospitalist,Neurology,2024-05-30 21:37:13,Routine,Completed
+CONS-0000100,ENC-008159,DOC-00124,General Surgery,Pulmonology,2024-05-31 10:55:49,Routine,Completed
+CONS-0000101,ENC-009897,DOC-00022,General Surgery,Nephrology,2024-01-18 23:10:21,Routine,Completed
+CONS-0000102,ENC-009897,DOC-00022,Emergency Medicine,Cardiology,2024-01-21 03:48:43,Routine,Completed
+CONS-0000103,ENC-009897,DOC-00022,Internal Medicine,Orthopedics,2024-01-20 23:36:07,Urgent,Completed
+CONS-0000104,ENC-009897,DOC-00022,Emergency Medicine,Infectious Disease,2024-01-19 22:45:19,Urgent,Cancelled
+CONS-0000105,ENC-009897,DOC-00022,General Surgery,Oncology,2024-01-18 20:16:05,Urgent,Completed
+CONS-0000106,ENC-002250,DOC-00063,Internal Medicine,Oncology,2024-06-23 16:21:00,Routine,Completed
+CONS-0000107,ENC-004641,DOC-00153,Internal Medicine,Psychiatry,2025-06-15 13:14:54,Routine,Completed
+CONS-0000108,ENC-004641,DOC-00153,Emergency Medicine,Nephrology,2025-06-14 23:35:47,Routine,Completed
+CONS-0000109,ENC-004641,DOC-00153,Hospitalist,Infectious Disease,2025-06-12 10:53:46,Routine,Completed
+CONS-0000110,ENC-009486,DOC-00017,Emergency Medicine,Orthopedics,2024-09-04 11:11:12,Routine,Completed
+CONS-0000111,ENC-009486,DOC-00017,Emergency Medicine,Nephrology,2024-09-04 12:07:35,Routine,Completed
+CONS-0000112,ENC-009486,DOC-00017,Emergency Medicine,Neurology,2024-09-05 04:44:54,Routine,Completed
+CONS-0000113,ENC-009486,DOC-00017,Internal Medicine,Neurology,2024-09-03 23:01:24,Urgent,Cancelled
+CONS-0000114,ENC-009486,DOC-00017,General Surgery,Palliative Care,2024-09-03 11:47:55,Routine,Completed
+CONS-0000115,ENC-009486,DOC-00017,Family Medicine,Psychiatry,2024-09-03 21:12:58,Urgent,Completed
+CONS-0000116,ENC-004948,DOC-00085,Internal Medicine,Oncology,2025-04-22 13:12:24,Urgent,Completed
+CONS-0000117,ENC-004948,DOC-00085,General Surgery,Oncology,2025-04-19 16:42:54,Routine,Completed
+CONS-0000118,ENC-004948,DOC-00085,General Surgery,Gastroenterology,2025-04-20 10:56:59,Urgent,Completed
+CONS-0000119,ENC-004948,DOC-00085,General Surgery,Palliative Care,2025-04-19 04:14:14,Routine,Completed
+CONS-0000120,ENC-004948,DOC-00085,Emergency Medicine,Nephrology,2025-04-19 22:08:33,Routine,Cancelled
+CONS-0000121,ENC-009921,DOC-00002,Family Medicine,Gastroenterology,2024-09-19 08:08:54,Routine,Completed
+CONS-0000122,ENC-009921,DOC-00002,Internal Medicine,Gastroenterology,2024-09-19 12:22:17,Urgent,Completed
+CONS-0000123,ENC-009921,DOC-00002,Internal Medicine,Nephrology,2024-09-20 03:19:35,Urgent,Completed
+CONS-0000124,ENC-009921,DOC-00002,Family Medicine,Pulmonology,2024-09-19 09:21:57,Routine,Completed
+CONS-0000125,ENC-001964,DOC-00156,General Surgery,Pulmonology,2025-04-08 22:38:57,Routine,Completed
+CONS-0000126,ENC-001964,DOC-00156,Emergency Medicine,Nephrology,2025-04-03 16:48:24,Urgent,Completed
+CONS-0000127,ENC-001964,DOC-00156,Emergency Medicine,Pulmonology,2025-04-08 13:37:06,Routine,Completed
+CONS-0000128,ENC-001964,DOC-00156,Family Medicine,Orthopedics,2025-04-08 17:28:57,Routine,Completed
+CONS-0000129,ENC-001964,DOC-00156,Internal Medicine,Infectious Disease,2025-04-04 07:38:50,Urgent,Completed
+CONS-0000130,ENC-001964,DOC-00156,Hospitalist,Palliative Care,2025-04-05 08:26:35,Routine,Completed
+CONS-0000131,ENC-001964,DOC-00156,General Surgery,Gastroenterology,2025-04-06 08:01:14,Urgent,Completed
+CONS-0000132,ENC-001964,DOC-00156,Family Medicine,Cardiology,2025-04-03 05:07:50,Routine,Completed
+CONS-0000133,ENC-008244,DOC-00008,Emergency Medicine,Palliative Care,2024-09-18 19:33:15,Routine,Completed
+CONS-0000134,ENC-008244,DOC-00008,Family Medicine,Palliative Care,2024-09-18 01:26:53,Urgent,Completed
+CONS-0000135,ENC-008244,DOC-00008,General Surgery,Gastroenterology,2024-09-20 03:01:52,Routine,Cancelled
+CONS-0000136,ENC-006591,DOC-00035,Internal Medicine,Nephrology,2025-07-12 16:59:54,Routine,Completed
+CONS-0000137,ENC-006591,DOC-00035,Emergency Medicine,Oncology,2025-07-12 22:35:48,Routine,Cancelled
+CONS-0000138,ENC-006591,DOC-00035,Hospitalist,Oncology,2025-07-12 17:21:00,Routine,Completed
+CONS-0000139,ENC-006591,DOC-00035,General Surgery,Nephrology,2025-07-12 21:10:32,Routine,Completed
+CONS-0000140,ENC-006591,DOC-00035,Emergency Medicine,Psychiatry,2025-07-12 18:47:38,Routine,Completed
+CONS-0000141,ENC-006591,DOC-00035,Hospitalist,Neurology,2025-07-12 18:45:31,Urgent,Completed
+CONS-0000142,ENC-008848,DOC-00095,Hospitalist,Palliative Care,2025-10-08 10:17:14,Routine,Completed
+CONS-0000143,ENC-008848,DOC-00095,Hospitalist,Psychiatry,2025-10-07 22:55:27,Urgent,Completed
+CONS-0000144,ENC-008848,DOC-00095,General Surgery,Pulmonology,2025-10-09 02:50:43,Urgent,Completed
+CONS-0000145,ENC-008848,DOC-00095,Internal Medicine,Nephrology,2025-10-08 01:43:35,Routine,Completed
+CONS-0000146,ENC-008848,DOC-00095,General Surgery,Nephrology,2025-10-09 12:07:32,Routine,Completed
+CONS-0000147,ENC-008848,DOC-00095,Family Medicine,Palliative Care,2025-10-07 23:02:29,Routine,Completed
+CONS-0000148,ENC-000322,DOC-00180,Internal Medicine,Infectious Disease,2025-06-13 07:24:32,Urgent,Completed
+CONS-0000149,ENC-000322,DOC-00180,Emergency Medicine,Infectious Disease,2025-06-12 20:43:06,Routine,Cancelled
+CONS-0000150,ENC-000322,DOC-00180,Emergency Medicine,Orthopedics,2025-06-13 20:01:25,Routine,Completed
+CONS-0000151,ENC-000322,DOC-00180,Family Medicine,Neurology,2025-06-13 02:24:56,Routine,Completed
+CONS-0000152,ENC-002679,DOC-00158,Family Medicine,Psychiatry,2025-06-04 22:33:25,Routine,Cancelled
+CONS-0000153,ENC-002679,DOC-00158,General Surgery,Psychiatry,2025-06-04 15:50:02,Urgent,Completed
+CONS-0000154,ENC-004626,DOC-00072,General Surgery,Orthopedics,2024-09-16 14:01:28,Routine,Completed
+CONS-0000155,ENC-004626,DOC-00072,Emergency Medicine,Orthopedics,2024-09-16 20:41:43,Urgent,Completed
+CONS-0000156,ENC-004626,DOC-00072,Hospitalist,Oncology,2024-09-11 18:55:13,Routine,Completed
+CONS-0000157,ENC-004626,DOC-00072,Hospitalist,Nephrology,2024-09-18 04:11:39,Routine,Completed
+CONS-0000158,ENC-004950,DOC-00158,Hospitalist,Neurology,2025-08-15 09:48:22,Routine,Completed
+CONS-0000159,ENC-004950,DOC-00158,Internal Medicine,Nephrology,2025-08-16 19:29:08,Routine,Completed
+CONS-0000160,ENC-004950,DOC-00158,Internal Medicine,Gastroenterology,2025-08-20 10:47:47,Routine,Completed
+CONS-0000161,ENC-004950,DOC-00158,General Surgery,Psychiatry,2025-08-18 12:33:08,Urgent,Cancelled
+CONS-0000162,ENC-008329,DOC-00163,Internal Medicine,Orthopedics,2025-06-21 06:32:21,STAT,Completed
+CONS-0000163,ENC-008329,DOC-00163,Hospitalist,Cardiology,2025-06-22 11:35:45,Routine,Completed
+CONS-0000164,ENC-008329,DOC-00163,Hospitalist,Palliative Care,2025-06-22 12:16:57,Routine,Completed
+CONS-0000165,ENC-008329,DOC-00163,Hospitalist,Cardiology,2025-06-22 05:33:03,STAT,Completed
+CONS-0000166,ENC-008329,DOC-00163,Emergency Medicine,Oncology,2025-06-21 10:09:59,Urgent,Completed
+CONS-0000167,ENC-008329,DOC-00163,General Surgery,Oncology,2025-06-22 12:09:35,Routine,Completed
+CONS-0000168,ENC-008329,DOC-00163,Family Medicine,Neurology,2025-06-22 01:21:31,Urgent,Completed
+CONS-0000169,ENC-008329,DOC-00163,Hospitalist,Psychiatry,2025-06-21 13:45:21,Routine,Cancelled
+CONS-0000170,ENC-008329,DOC-00163,Hospitalist,Pulmonology,2025-06-21 16:20:54,Routine,Completed
+CONS-0000171,ENC-003338,DOC-00092,Internal Medicine,Nephrology,2024-12-25 03:18:55,Urgent,Completed
+CONS-0000172,ENC-003338,DOC-00092,Emergency Medicine,Cardiology,2024-12-27 02:17:57,Routine,Completed
+CONS-0000173,ENC-003338,DOC-00092,Emergency Medicine,Neurology,2024-12-27 08:58:12,Urgent,Completed
+CONS-0000174,ENC-005590,DOC-00103,Emergency Medicine,Orthopedics,2025-02-11 13:40:44,Urgent,Cancelled
+CONS-0000175,ENC-005590,DOC-00103,Family Medicine,Gastroenterology,2025-02-12 09:44:55,Routine,Completed
+CONS-0000176,ENC-005590,DOC-00103,Emergency Medicine,Psychiatry,2025-02-09 21:17:15,Urgent,Cancelled
+CONS-0000177,ENC-005590,DOC-00103,Hospitalist,Cardiology,2025-02-10 13:53:54,Routine,Completed
+CONS-0000178,ENC-005590,DOC-00103,Hospitalist,Gastroenterology,2025-02-10 03:28:06,Routine,Completed
+CONS-0000179,ENC-000252,DOC-00022,General Surgery,Nephrology,2025-02-06 02:15:49,Urgent,Completed
+CONS-0000180,ENC-000252,DOC-00022,Hospitalist,Gastroenterology,2025-02-08 05:35:54,Routine,Completed
+CONS-0000181,ENC-000252,DOC-00022,Emergency Medicine,Infectious Disease,2025-02-07 12:09:50,Urgent,Completed
+CONS-0000182,ENC-000252,DOC-00022,Emergency Medicine,Cardiology,2025-02-05 22:46:16,STAT,Completed
+CONS-0000183,ENC-000252,DOC-00022,General Surgery,Gastroenterology,2025-02-10 05:22:49,Urgent,Completed
+CONS-0000184,ENC-000252,DOC-00022,Hospitalist,Psychiatry,2025-02-09 11:28:12,Routine,Completed
+CONS-0000185,ENC-003974,DOC-00059,Emergency Medicine,Orthopedics,2025-06-13 15:00:25,Routine,Cancelled
+CONS-0000186,ENC-003974,DOC-00059,General Surgery,Cardiology,2025-06-13 08:52:32,Routine,Completed
+CONS-0000187,ENC-003974,DOC-00059,Emergency Medicine,Infectious Disease,2025-06-13 17:54:16,Routine,Pending
+CONS-0000188,ENC-003974,DOC-00059,Emergency Medicine,Nephrology,2025-06-14 06:04:55,Urgent,Completed
+CONS-0000189,ENC-003974,DOC-00059,Hospitalist,Gastroenterology,2025-06-13 12:42:43,Routine,Completed
+CONS-0000190,ENC-006631,DOC-00142,Emergency Medicine,Cardiology,2024-04-28 14:00:15,Urgent,Completed
+CONS-0000191,ENC-006631,DOC-00142,Emergency Medicine,Gastroenterology,2024-04-26 23:14:06,Routine,Completed
+CONS-0000192,ENC-006631,DOC-00142,Emergency Medicine,Palliative Care,2024-04-29 10:32:23,Urgent,Completed
+CONS-0000193,ENC-006631,DOC-00142,Hospitalist,Neurology,2024-04-28 20:50:21,Routine,Completed
+CONS-0000194,ENC-005548,DOC-00048,General Surgery,Gastroenterology,2025-11-16 05:41:20,Routine,Completed
+CONS-0000195,ENC-005548,DOC-00048,Internal Medicine,Neurology,2025-11-12 15:14:31,Routine,Completed
+CONS-0000196,ENC-005548,DOC-00048,General Surgery,Oncology,2025-11-12 19:35:23,Urgent,Completed
+CONS-0000197,ENC-005548,DOC-00048,Family Medicine,Cardiology,2025-11-17 13:47:57,Urgent,Completed
+CONS-0000198,ENC-005548,DOC-00048,Internal Medicine,Orthopedics,2025-11-16 19:51:01,Urgent,Completed
+CONS-0000199,ENC-005548,DOC-00048,Internal Medicine,Pulmonology,2025-11-12 15:24:44,Urgent,Completed
+CONS-0000200,ENC-000036,DOC-00050,General Surgery,Palliative Care,2025-09-19 05:39:33,Urgent,Completed
+CONS-0000201,ENC-000036,DOC-00050,Emergency Medicine,Gastroenterology,2025-09-19 02:29:35,Routine,Completed
+CONS-0000202,ENC-008363,DOC-00168,Emergency Medicine,Gastroenterology,2024-02-22 11:24:53,Urgent,Completed
+CONS-0000203,ENC-008363,DOC-00168,Family Medicine,Psychiatry,2024-02-20 18:49:50,Routine,Completed
+CONS-0000204,ENC-008363,DOC-00168,Hospitalist,Neurology,2024-02-20 18:20:27,Urgent,Cancelled
+CONS-0000205,ENC-001514,DOC-00033,Internal Medicine,Cardiology,2025-12-26 17:19:58,Urgent,Completed
+CONS-0000206,ENC-001514,DOC-00033,General Surgery,Gastroenterology,2025-12-28 01:52:04,Routine,Completed
+CONS-0000207,ENC-001514,DOC-00033,Emergency Medicine,Cardiology,2025-12-27 10:59:10,Routine,Completed
+CONS-0000208,ENC-001514,DOC-00033,Internal Medicine,Infectious Disease,2025-12-28 04:58:19,Routine,Pending
+CONS-0000209,ENC-001514,DOC-00033,General Surgery,Oncology,2026-01-01 21:09:05,Routine,Completed
+CONS-0000210,ENC-009318,DOC-00051,Internal Medicine,Gastroenterology,2025-03-13 13:13:24,Urgent,Cancelled
+CONS-0000211,ENC-009318,DOC-00051,Hospitalist,Orthopedics,2025-03-12 04:43:30,Urgent,Completed
+CONS-0000212,ENC-009318,DOC-00051,General Surgery,Neurology,2025-03-13 01:34:53,Routine,Completed
+CONS-0000213,ENC-009318,DOC-00051,Hospitalist,Pulmonology,2025-03-15 01:32:13,Routine,Completed
+CONS-0000214,ENC-009318,DOC-00051,Family Medicine,Neurology,2025-03-13 16:45:29,Routine,Completed
+CONS-0000215,ENC-000040,DOC-00117,General Surgery,Pulmonology,2024-10-30 14:33:47,Routine,Completed
+CONS-0000216,ENC-000040,DOC-00117,Hospitalist,Nephrology,2024-10-30 09:43:57,Routine,Completed
+CONS-0000217,ENC-000040,DOC-00117,Emergency Medicine,Gastroenterology,2024-10-30 15:27:34,Routine,Completed
+CONS-0000218,ENC-000040,DOC-00117,Hospitalist,Palliative Care,2024-10-30 11:11:41,Routine,Completed
+CONS-0000219,ENC-000040,DOC-00117,Emergency Medicine,Psychiatry,2024-10-30 09:01:15,Routine,Completed
+CONS-0000220,ENC-000040,DOC-00117,Emergency Medicine,Pulmonology,2024-10-30 14:04:23,Routine,Completed
+CONS-0000221,ENC-004820,DOC-00033,Internal Medicine,Infectious Disease,2025-04-01 01:44:12,Urgent,Completed
+CONS-0000222,ENC-004820,DOC-00033,Internal Medicine,Cardiology,2025-03-29 22:48:30,Routine,Completed
+CONS-0000223,ENC-004820,DOC-00033,General Surgery,Pulmonology,2025-03-29 17:29:28,Urgent,Completed
+CONS-0000224,ENC-004820,DOC-00033,Family Medicine,Cardiology,2025-03-29 15:14:22,Routine,Completed
+CONS-0000225,ENC-004820,DOC-00033,Family Medicine,Psychiatry,2025-03-31 04:09:43,Routine,Completed
+CONS-0000226,ENC-003466,DOC-00200,Hospitalist,Pulmonology,2024-02-01 01:24:55,Routine,Completed
+CONS-0000227,ENC-003466,DOC-00200,Emergency Medicine,Infectious Disease,2024-02-03 02:36:06,Routine,Completed
+CONS-0000228,ENC-001761,DOC-00112,Family Medicine,Infectious Disease,2024-09-07 20:36:32,Routine,Completed
+CONS-0000229,ENC-001761,DOC-00112,Emergency Medicine,Psychiatry,2024-09-08 01:39:25,Urgent,Completed
+CONS-0000230,ENC-001761,DOC-00112,General Surgery,Psychiatry,2024-09-07 23:42:03,Routine,Completed
+CONS-0000231,ENC-001761,DOC-00112,Internal Medicine,Oncology,2024-09-07 21:18:10,Urgent,Completed
+CONS-0000232,ENC-001761,DOC-00112,Family Medicine,Cardiology,2024-09-08 01:28:59,Routine,Completed
+CONS-0000233,ENC-001761,DOC-00112,Internal Medicine,Oncology,2024-09-07 23:38:16,Urgent,Completed
+CONS-0000234,ENC-001761,DOC-00112,Emergency Medicine,Infectious Disease,2024-09-08 01:07:40,Routine,Completed
+CONS-0000235,ENC-001761,DOC-00112,Emergency Medicine,Orthopedics,2024-09-08 05:15:01,Routine,Completed
+CONS-0000236,ENC-001761,DOC-00112,Emergency Medicine,Neurology,2024-09-08 05:24:48,Routine,Completed
+CONS-0000237,ENC-002305,DOC-00066,Family Medicine,Neurology,2025-02-24 06:46:47,Routine,Completed
+CONS-0000238,ENC-002305,DOC-00066,Family Medicine,Neurology,2025-02-21 11:05:57,Routine,Completed
+CONS-0000239,ENC-002305,DOC-00066,General Surgery,Gastroenterology,2025-02-22 20:52:48,Routine,Completed
+CONS-0000240,ENC-002305,DOC-00066,Internal Medicine,Psychiatry,2025-02-23 01:25:37,Routine,Completed
+CONS-0000241,ENC-003724,DOC-00109,Internal Medicine,Nephrology,2024-04-04 06:54:47,Routine,Completed
+CONS-0000242,ENC-003724,DOC-00109,General Surgery,Infectious Disease,2024-04-05 07:50:00,Routine,Completed
+CONS-0000243,ENC-003724,DOC-00109,Hospitalist,Nephrology,2024-04-06 00:00:07,Routine,Completed
+CONS-0000244,ENC-008285,DOC-00007,Family Medicine,Neurology,2024-12-15 00:27:16,Routine,Completed
+CONS-0000245,ENC-008285,DOC-00007,General Surgery,Infectious Disease,2024-12-14 21:28:44,Routine,Completed
+CONS-0000246,ENC-008285,DOC-00007,Family Medicine,Infectious Disease,2024-12-12 17:15:17,Routine,Completed
+CONS-0000247,ENC-008285,DOC-00007,Emergency Medicine,Nephrology,2024-12-13 06:21:41,Routine,Cancelled
+CONS-0000248,ENC-008285,DOC-00007,Internal Medicine,Neurology,2024-12-13 21:49:56,Routine,Completed
+CONS-0000249,ENC-008285,DOC-00007,Hospitalist,Pulmonology,2024-12-15 14:50:11,STAT,Completed
+CONS-0000250,ENC-004994,DOC-00029,Family Medicine,Pulmonology,2024-01-02 14:52:52,Routine,Completed
+CONS-0000251,ENC-004994,DOC-00029,Hospitalist,Gastroenterology,2024-01-02 11:12:26,Routine,Completed
+CONS-0000252,ENC-004994,DOC-00029,Hospitalist,Nephrology,2024-01-02 17:14:59,Routine,Completed
+CONS-0000253,ENC-008128,DOC-00065,Family Medicine,Oncology,2025-01-29 15:30:32,Urgent,Completed
+CONS-0000254,ENC-008128,DOC-00065,Hospitalist,Oncology,2025-01-29 14:57:06,STAT,Completed
+CONS-0000255,ENC-008128,DOC-00065,General Surgery,Pulmonology,2025-01-29 18:29:08,Routine,Completed
+CONS-0000256,ENC-008128,DOC-00065,Internal Medicine,Gastroenterology,2025-01-31 13:16:04,Routine,Completed
+CONS-0000257,ENC-008128,DOC-00065,Family Medicine,Neurology,2025-01-30 12:32:36,Routine,Completed
+CONS-0000258,ENC-008128,DOC-00065,Family Medicine,Gastroenterology,2025-01-30 15:19:27,Routine,Completed
+CONS-0000259,ENC-008128,DOC-00065,Emergency Medicine,Palliative Care,2025-01-31 01:38:43,Urgent,Completed
+CONS-0000260,ENC-003033,DOC-00138,Emergency Medicine,Pulmonology,2024-02-20 08:22:50,Routine,Completed
+CONS-0000261,ENC-003033,DOC-00138,Hospitalist,Orthopedics,2024-02-20 23:28:15,Urgent,Completed
+CONS-0000262,ENC-003033,DOC-00138,Internal Medicine,Oncology,2024-02-19 07:35:19,Routine,Cancelled
+CONS-0000263,ENC-003033,DOC-00138,Family Medicine,Cardiology,2024-02-19 04:36:43,Routine,Completed
+CONS-0000264,ENC-003033,DOC-00138,General Surgery,Gastroenterology,2024-02-18 11:01:53,Routine,Completed
+CONS-0000265,ENC-003033,DOC-00138,Family Medicine,Psychiatry,2024-02-19 08:18:20,Urgent,Completed
+CONS-0000266,ENC-007939,DOC-00080,Family Medicine,Neurology,2025-09-28 22:03:39,Routine,Completed
+CONS-0000267,ENC-007939,DOC-00080,Hospitalist,Oncology,2025-09-29 18:44:39,Routine,Cancelled
+CONS-0000268,ENC-003040,DOC-00109,Family Medicine,Pulmonology,2025-09-11 19:59:50,Routine,Completed
+CONS-0000269,ENC-003040,DOC-00109,Internal Medicine,Neurology,2025-09-10 19:38:50,Routine,Completed
+CONS-0000270,ENC-003040,DOC-00109,Emergency Medicine,Cardiology,2025-09-10 21:33:57,Routine,Completed
+CONS-0000271,ENC-003040,DOC-00109,Internal Medicine,Infectious Disease,2025-09-16 03:42:24,Routine,Completed
+CONS-0000272,ENC-003040,DOC-00109,Emergency Medicine,Palliative Care,2025-09-13 12:57:08,Routine,Completed
+CONS-0000273,ENC-003040,DOC-00109,Hospitalist,Orthopedics,2025-09-09 06:40:24,Urgent,Completed
+CONS-0000274,ENC-003040,DOC-00109,Hospitalist,Pulmonology,2025-09-11 19:31:44,Urgent,Completed
+CONS-0000275,ENC-009656,DOC-00017,Family Medicine,Gastroenterology,2024-07-22 22:11:25,Routine,Completed
+CONS-0000276,ENC-009656,DOC-00017,Emergency Medicine,Infectious Disease,2024-07-22 18:10:26,Urgent,Completed
+CONS-0000277,ENC-009656,DOC-00017,Family Medicine,Orthopedics,2024-07-24 09:34:40,Urgent,Completed
+CONS-0000278,ENC-009656,DOC-00017,Family Medicine,Neurology,2024-07-22 12:08:51,STAT,Completed
+CONS-0000279,ENC-009656,DOC-00017,General Surgery,Nephrology,2024-07-23 17:01:26,Routine,Completed
+CONS-0000280,ENC-002546,DOC-00043,Emergency Medicine,Neurology,2025-11-26 08:42:37,Routine,Completed
+CONS-0000281,ENC-002546,DOC-00043,Hospitalist,Oncology,2025-11-26 10:45:20,Urgent,Completed
+CONS-0000282,ENC-002546,DOC-00043,Family Medicine,Infectious Disease,2025-11-27 20:56:03,Routine,Completed
+CONS-0000283,ENC-002546,DOC-00043,Hospitalist,Infectious Disease,2025-11-27 12:52:58,Urgent,Completed
+CONS-0000284,ENC-002546,DOC-00043,Family Medicine,Oncology,2025-11-26 18:25:07,Urgent,Pending
+CONS-0000285,ENC-002546,DOC-00043,Family Medicine,Nephrology,2025-11-27 20:52:02,Urgent,Completed
+CONS-0000286,ENC-002546,DOC-00043,Emergency Medicine,Infectious Disease,2025-11-26 12:00:54,Routine,Completed
+CONS-0000287,ENC-002593,DOC-00199,Emergency Medicine,Orthopedics,2025-10-24 10:15:18,Routine,Completed
+CONS-0000288,ENC-002593,DOC-00199,Emergency Medicine,Psychiatry,2025-10-24 03:30:18,Routine,Completed
+CONS-0000289,ENC-002593,DOC-00199,General Surgery,Psychiatry,2025-10-24 06:35:07,Urgent,Completed
+CONS-0000290,ENC-002593,DOC-00199,Hospitalist,Pulmonology,2025-10-24 04:11:24,Routine,Completed
+CONS-0000291,ENC-001189,DOC-00038,General Surgery,Nephrology,2024-08-04 09:34:41,Routine,Completed
+CONS-0000292,ENC-001189,DOC-00038,Emergency Medicine,Orthopedics,2024-08-04 10:51:21,Routine,Completed
+CONS-0000293,ENC-001189,DOC-00038,Family Medicine,Psychiatry,2024-08-04 08:16:49,Routine,Cancelled
+CONS-0000294,ENC-001189,DOC-00038,Internal Medicine,Nephrology,2024-08-04 10:16:18,Routine,Completed
+CONS-0000295,ENC-001189,DOC-00038,Family Medicine,Palliative Care,2024-08-04 07:11:40,Urgent,Completed
+CONS-0000296,ENC-001189,DOC-00038,General Surgery,Orthopedics,2024-08-04 02:03:30,Routine,Completed
+CONS-0000297,ENC-007967,DOC-00020,Hospitalist,Palliative Care,2024-01-28 23:40:50,Urgent,Completed
+CONS-0000298,ENC-007967,DOC-00020,Emergency Medicine,Palliative Care,2024-01-29 14:59:50,Routine,Completed
+CONS-0000299,ENC-006078,DOC-00182,Family Medicine,Nephrology,2024-05-31 18:15:37,Routine,Completed
+CONS-0000300,ENC-006078,DOC-00182,Internal Medicine,Palliative Care,2024-05-31 05:36:08,Urgent,Cancelled
+CONS-0000301,ENC-006078,DOC-00182,General Surgery,Neurology,2024-05-31 15:17:25,Routine,Cancelled
+CONS-0000302,ENC-006078,DOC-00182,Family Medicine,Pulmonology,2024-05-31 04:17:56,Routine,Cancelled
+CONS-0000303,ENC-006078,DOC-00182,Family Medicine,Palliative Care,2024-05-31 11:18:26,Routine,Completed
+CONS-0000304,ENC-006078,DOC-00182,Emergency Medicine,Oncology,2024-05-31 03:42:59,Routine,Completed
+CONS-0000305,ENC-000108,DOC-00125,Hospitalist,Oncology,2025-01-21 10:14:09,Routine,Completed
+CONS-0000306,ENC-000108,DOC-00125,Hospitalist,Psychiatry,2025-01-21 05:06:12,Routine,Completed
+CONS-0000307,ENC-000108,DOC-00125,General Surgery,Pulmonology,2025-01-19 16:10:42,Urgent,Pending
+CONS-0000308,ENC-000108,DOC-00125,Emergency Medicine,Gastroenterology,2025-01-22 11:05:35,Routine,Completed
+CONS-0000309,ENC-000108,DOC-00125,General Surgery,Oncology,2025-01-23 19:09:05,Routine,Completed
+CONS-0000310,ENC-001316,DOC-00050,General Surgery,Palliative Care,2024-04-06 06:12:25,STAT,Completed
+CONS-0000311,ENC-001316,DOC-00050,General Surgery,Nephrology,2024-04-10 14:14:08,Urgent,Completed
+CONS-0000312,ENC-001316,DOC-00050,Family Medicine,Orthopedics,2024-04-07 05:49:21,Routine,Completed
+CONS-0000313,ENC-001316,DOC-00050,Emergency Medicine,Cardiology,2024-04-07 18:27:47,Routine,Completed
+CONS-0000314,ENC-001316,DOC-00050,Hospitalist,Neurology,2024-04-09 14:09:23,Routine,Completed
+CONS-0000315,ENC-008188,DOC-00180,Hospitalist,Orthopedics,2024-11-27 09:34:46,Urgent,Completed
+CONS-0000316,ENC-008188,DOC-00180,Family Medicine,Psychiatry,2024-11-26 04:12:19,Routine,Completed
+CONS-0000317,ENC-008188,DOC-00180,Hospitalist,Orthopedics,2024-11-28 00:41:53,Routine,Completed
+CONS-0000318,ENC-002754,DOC-00009,General Surgery,Pulmonology,2024-06-24 17:44:40,Urgent,Completed
+CONS-0000319,ENC-002754,DOC-00009,Emergency Medicine,Neurology,2024-06-24 18:19:41,Routine,Completed
+CONS-0000320,ENC-002754,DOC-00009,Emergency Medicine,Nephrology,2024-06-24 18:11:04,Routine,Completed
+CONS-0000321,ENC-002754,DOC-00009,Hospitalist,Orthopedics,2024-06-24 15:52:43,Urgent,Completed
+CONS-0000322,ENC-002754,DOC-00009,Emergency Medicine,Infectious Disease,2024-06-24 15:19:55,Routine,Pending
+CONS-0000323,ENC-009754,DOC-00124,Hospitalist,Psychiatry,2025-02-23 07:41:36,Routine,Completed
+CONS-0000324,ENC-009754,DOC-00124,Internal Medicine,Oncology,2025-02-26 09:31:24,Routine,Completed
+CONS-0000325,ENC-009754,DOC-00124,Emergency Medicine,Oncology,2025-02-25 00:14:25,Urgent,Completed
+CONS-0000326,ENC-009754,DOC-00124,Family Medicine,Infectious Disease,2025-02-20 21:59:53,Urgent,Completed
+CONS-0000327,ENC-009754,DOC-00124,Family Medicine,Orthopedics,2025-02-24 19:10:17,Routine,Completed
+CONS-0000328,ENC-009754,DOC-00124,Internal Medicine,Oncology,2025-02-24 23:23:38,Routine,Completed
+CONS-0000329,ENC-006232,DOC-00198,Family Medicine,Orthopedics,2025-02-15 04:37:18,Routine,Cancelled
+CONS-0000330,ENC-006232,DOC-00198,Internal Medicine,Nephrology,2025-02-15 06:03:49,Routine,Completed
+CONS-0000331,ENC-006232,DOC-00198,Family Medicine,Palliative Care,2025-02-14 11:25:35,Urgent,Cancelled
+CONS-0000332,ENC-006232,DOC-00198,Internal Medicine,Cardiology,2025-02-15 03:29:15,Routine,Cancelled
+CONS-0000333,ENC-006232,DOC-00198,Family Medicine,Pulmonology,2025-02-14 16:53:39,Routine,Completed
+CONS-0000334,ENC-006232,DOC-00198,Emergency Medicine,Neurology,2025-02-14 21:35:33,Urgent,Completed
+CONS-0000335,ENC-002877,DOC-00158,General Surgery,Cardiology,2024-10-02 15:29:42,Routine,Completed
+CONS-0000336,ENC-002877,DOC-00158,Family Medicine,Gastroenterology,2024-10-02 20:03:02,Routine,Pending
+CONS-0000337,ENC-002877,DOC-00158,Emergency Medicine,Cardiology,2024-10-02 10:57:31,Routine,Completed
+CONS-0000338,ENC-002877,DOC-00158,General Surgery,Cardiology,2024-10-02 23:42:34,Routine,Completed
+CONS-0000339,ENC-005324,DOC-00092,Family Medicine,Palliative Care,2024-09-16 21:14:24,Routine,Cancelled
+CONS-0000340,ENC-005324,DOC-00092,Internal Medicine,Gastroenterology,2024-09-17 20:45:19,Routine,Completed
+CONS-0000341,ENC-005324,DOC-00092,General Surgery,Palliative Care,2024-09-19 05:11:14,Urgent,Completed
+CONS-0000342,ENC-000800,DOC-00034,Internal Medicine,Gastroenterology,2024-08-09 10:27:08,Routine,Completed
+CONS-0000343,ENC-000800,DOC-00034,General Surgery,Neurology,2024-08-10 14:03:39,Routine,Completed
+CONS-0000344,ENC-000800,DOC-00034,Emergency Medicine,Oncology,2024-08-10 15:15:42,Urgent,Completed
+CONS-0000345,ENC-000800,DOC-00034,Internal Medicine,Pulmonology,2024-08-08 22:44:07,STAT,Completed
+CONS-0000346,ENC-000800,DOC-00034,Internal Medicine,Orthopedics,2024-08-09 15:17:31,Routine,Cancelled
+CONS-0000347,ENC-000800,DOC-00034,Hospitalist,Psychiatry,2024-08-09 16:12:45,Routine,Completed
+CONS-0000348,ENC-003571,DOC-00150,General Surgery,Cardiology,2024-10-13 09:07:29,Routine,Completed
+CONS-0000349,ENC-003571,DOC-00150,General Surgery,Palliative Care,2024-10-14 00:58:48,Urgent,Completed
+CONS-0000350,ENC-003571,DOC-00150,Family Medicine,Pulmonology,2024-10-13 14:32:55,Routine,Completed
+CONS-0000351,ENC-003571,DOC-00150,Family Medicine,Cardiology,2024-10-07 19:59:20,Routine,Completed
+CONS-0000352,ENC-003571,DOC-00150,Hospitalist,Orthopedics,2024-10-08 03:11:05,Routine,Completed
+CONS-0000353,ENC-002895,DOC-00135,General Surgery,Orthopedics,2024-08-12 07:31:33,Routine,Completed
+CONS-0000354,ENC-002895,DOC-00135,Emergency Medicine,Cardiology,2024-08-12 11:18:35,Routine,Completed
+CONS-0000355,ENC-002895,DOC-00135,Family Medicine,Oncology,2024-08-12 13:53:37,Routine,Completed
+CONS-0000356,ENC-002928,DOC-00200,Family Medicine,Psychiatry,2024-04-26 09:49:28,Urgent,Completed
+CONS-0000357,ENC-002928,DOC-00200,Hospitalist,Palliative Care,2024-04-26 04:38:09,Routine,Completed
+CONS-0000358,ENC-002928,DOC-00200,General Surgery,Neurology,2024-04-26 02:26:25,Urgent,Completed
+CONS-0000359,ENC-002928,DOC-00200,Family Medicine,Palliative Care,2024-04-26 06:47:45,Routine,Completed
+CONS-0000360,ENC-002928,DOC-00200,General Surgery,Pulmonology,2024-04-26 11:54:03,Urgent,Completed
+CONS-0000361,ENC-002928,DOC-00200,Hospitalist,Nephrology,2024-04-25 22:38:04,Urgent,Completed
+CONS-0000362,ENC-008179,DOC-00149,General Surgery,Orthopedics,2024-05-13 17:31:24,STAT,Completed
+CONS-0000363,ENC-008179,DOC-00149,Hospitalist,Cardiology,2024-05-12 15:39:11,Routine,Completed
+CONS-0000364,ENC-008179,DOC-00149,Internal Medicine,Neurology,2024-05-14 00:39:20,Routine,Completed
+CONS-0000365,ENC-008179,DOC-00149,Family Medicine,Psychiatry,2024-05-11 19:20:49,Urgent,Completed
+CONS-0000366,ENC-008179,DOC-00149,Emergency Medicine,Pulmonology,2024-05-12 19:25:43,Routine,Completed
+CONS-0000367,ENC-000972,DOC-00146,Emergency Medicine,Palliative Care,2025-06-14 04:17:33,Routine,Completed
+CONS-0000368,ENC-000972,DOC-00146,Hospitalist,Nephrology,2025-06-14 07:07:12,Urgent,Cancelled
+CONS-0000369,ENC-000972,DOC-00146,Family Medicine,Gastroenterology,2025-06-14 17:17:05,Routine,Completed
+CONS-0000370,ENC-006688,DOC-00161,Internal Medicine,Infectious Disease,2025-05-09 12:49:05,Routine,Completed
+CONS-0000371,ENC-006688,DOC-00161,Internal Medicine,Pulmonology,2025-05-10 05:24:28,Urgent,Completed
+CONS-0000372,ENC-006688,DOC-00161,Family Medicine,Palliative Care,2025-05-09 06:42:41,Routine,Completed
+CONS-0000373,ENC-006688,DOC-00161,Family Medicine,Oncology,2025-05-11 16:13:25,STAT,Completed
+CONS-0000374,ENC-008576,DOC-00065,Emergency Medicine,Gastroenterology,2024-10-30 07:27:20,Routine,Completed
+CONS-0000375,ENC-008576,DOC-00065,General Surgery,Orthopedics,2024-11-06 12:21:50,Routine,Completed
+CONS-0000376,ENC-008576,DOC-00065,Emergency Medicine,Oncology,2024-11-01 05:06:44,Routine,Completed
+CONS-0000377,ENC-008576,DOC-00065,Hospitalist,Oncology,2024-11-01 05:08:56,Routine,Completed
+CONS-0000378,ENC-008576,DOC-00065,Family Medicine,Neurology,2024-11-01 02:43:41,Routine,Pending
+CONS-0000379,ENC-008576,DOC-00065,Hospitalist,Nephrology,2024-10-31 06:41:40,Urgent,Completed
+CONS-0000380,ENC-008576,DOC-00065,Emergency Medicine,Palliative Care,2024-10-29 14:10:23,Urgent,Completed
+CONS-0000381,ENC-002021,DOC-00058,Emergency Medicine,Palliative Care,2024-04-19 21:52:54,Routine,Completed
+CONS-0000382,ENC-002021,DOC-00058,Internal Medicine,Oncology,2024-04-19 23:47:19,Routine,Completed
+CONS-0000383,ENC-002021,DOC-00058,Emergency Medicine,Cardiology,2024-04-20 15:34:58,Routine,Completed
+CONS-0000384,ENC-002021,DOC-00058,Family Medicine,Cardiology,2024-04-23 01:08:51,STAT,Completed
+CONS-0000385,ENC-002021,DOC-00058,Emergency Medicine,Orthopedics,2024-04-20 02:40:09,Routine,Completed
+CONS-0000386,ENC-009055,DOC-00158,Internal Medicine,Gastroenterology,2025-06-11 10:45:14,Routine,Completed
+CONS-0000387,ENC-009055,DOC-00158,Family Medicine,Palliative Care,2025-06-10 08:07:47,Routine,Completed
+CONS-0000388,ENC-009055,DOC-00158,Hospitalist,Gastroenterology,2025-06-11 23:08:23,Routine,Completed
+CONS-0000389,ENC-009055,DOC-00158,Internal Medicine,Pulmonology,2025-06-11 13:35:18,Routine,Completed
+CONS-0000390,ENC-009055,DOC-00158,Family Medicine,Neurology,2025-06-11 01:41:35,Urgent,Completed
+CONS-0000391,ENC-000953,DOC-00037,General Surgery,Infectious Disease,2024-10-02 06:07:48,Routine,Pending
+CONS-0000392,ENC-000953,DOC-00037,Family Medicine,Gastroenterology,2024-10-01 19:39:01,Urgent,Completed
+CONS-0000393,ENC-000953,DOC-00037,Family Medicine,Cardiology,2024-10-03 16:00:24,Routine,Completed
+CONS-0000394,ENC-000953,DOC-00037,Emergency Medicine,Gastroenterology,2024-10-02 19:40:50,Urgent,Completed
+CONS-0000395,ENC-000953,DOC-00037,Hospitalist,Palliative Care,2024-09-29 21:36:12,Routine,Completed
+CONS-0000396,ENC-005360,DOC-00006,Family Medicine,Gastroenterology,2024-12-05 09:49:09,Routine,Cancelled
+CONS-0000397,ENC-005360,DOC-00006,General Surgery,Gastroenterology,2024-12-06 07:33:53,Routine,Completed
+CONS-0000398,ENC-005360,DOC-00006,Internal Medicine,Nephrology,2024-12-05 18:15:03,Urgent,Completed
+CONS-0000399,ENC-005360,DOC-00006,General Surgery,Psychiatry,2024-12-06 08:17:33,Routine,Completed
+CONS-0000400,ENC-003858,DOC-00149,General Surgery,Pulmonology,2025-10-23 08:57:39,Routine,Completed
+CONS-0000401,ENC-003858,DOC-00149,Family Medicine,Infectious Disease,2025-10-26 18:54:51,Routine,Completed
+CONS-0000402,ENC-003858,DOC-00149,Hospitalist,Gastroenterology,2025-10-26 17:28:56,Routine,Completed
+CONS-0000403,ENC-003858,DOC-00149,Hospitalist,Gastroenterology,2025-10-25 02:57:19,Routine,Completed
+CONS-0000404,ENC-005862,DOC-00162,Internal Medicine,Psychiatry,2025-08-14 05:44:05,Routine,Completed
+CONS-0000405,ENC-005862,DOC-00162,General Surgery,Palliative Care,2025-08-14 00:08:13,Routine,Completed
+CONS-0000406,ENC-005862,DOC-00162,General Surgery,Palliative Care,2025-08-14 03:20:36,Routine,Completed
+CONS-0000407,ENC-005862,DOC-00162,Hospitalist,Psychiatry,2025-08-14 07:05:28,Routine,Completed
+CONS-0000408,ENC-005862,DOC-00162,Family Medicine,Neurology,2025-08-13 20:14:24,Urgent,Completed
+CONS-0000409,ENC-003146,DOC-00057,General Surgery,Gastroenterology,2024-12-20 21:33:28,Urgent,Completed
+CONS-0000410,ENC-003146,DOC-00057,Internal Medicine,Neurology,2024-12-17 14:14:29,Routine,Completed
+CONS-0000411,ENC-003146,DOC-00057,Internal Medicine,Neurology,2024-12-20 17:26:58,Routine,Completed
+CONS-0000412,ENC-003306,DOC-00164,Internal Medicine,Pulmonology,2024-11-27 08:49:08,Urgent,Completed
+CONS-0000413,ENC-003306,DOC-00164,Hospitalist,Nephrology,2024-11-25 18:39:33,STAT,Completed
+CONS-0000414,ENC-003306,DOC-00164,Emergency Medicine,Pulmonology,2024-11-23 22:29:10,Routine,Pending
+CONS-0000415,ENC-003306,DOC-00164,Family Medicine,Oncology,2024-11-23 18:33:19,STAT,Completed
+CONS-0000416,ENC-003306,DOC-00164,Emergency Medicine,Palliative Care,2024-11-22 21:50:30,Routine,Completed
+CONS-0000417,ENC-003007,DOC-00108,Family Medicine,Neurology,2025-05-14 06:54:33,Routine,Completed
+CONS-0000418,ENC-003007,DOC-00108,Hospitalist,Neurology,2025-05-15 17:03:49,Routine,Completed
+CONS-0000419,ENC-003007,DOC-00108,General Surgery,Gastroenterology,2025-05-13 11:31:48,Urgent,Completed
+CONS-0000420,ENC-003007,DOC-00108,Hospitalist,Cardiology,2025-05-16 17:42:16,Routine,Completed
+CONS-0000421,ENC-003007,DOC-00108,Emergency Medicine,Infectious Disease,2025-05-16 17:49:03,Routine,Completed
+CONS-0000422,ENC-003007,DOC-00108,Internal Medicine,Nephrology,2025-05-12 23:24:37,Routine,Completed
+CONS-0000423,ENC-009002,DOC-00086,Hospitalist,Gastroenterology,2025-02-28 10:45:05,Urgent,Completed
+CONS-0000424,ENC-009002,DOC-00086,Hospitalist,Psychiatry,2025-02-28 03:58:35,Routine,Completed
+CONS-0000425,ENC-009002,DOC-00086,Internal Medicine,Orthopedics,2025-02-26 05:39:54,Routine,Completed
+CONS-0000426,ENC-009002,DOC-00086,Internal Medicine,Psychiatry,2025-02-26 05:52:38,Routine,Completed
+CONS-0000427,ENC-009002,DOC-00086,Family Medicine,Oncology,2025-02-26 04:48:07,Routine,Completed
+CONS-0000428,ENC-009002,DOC-00086,Internal Medicine,Pulmonology,2025-02-28 05:56:25,Routine,Completed
+CONS-0000429,ENC-007771,DOC-00090,Internal Medicine,Orthopedics,2025-04-30 03:41:56,Urgent,Completed
+CONS-0000430,ENC-007771,DOC-00090,Hospitalist,Cardiology,2025-04-30 05:44:16,Routine,Completed
+CONS-0000431,ENC-007771,DOC-00090,Internal Medicine,Infectious Disease,2025-04-29 22:19:34,Routine,Completed
+CONS-0000432,ENC-007771,DOC-00090,Internal Medicine,Neurology,2025-04-30 02:46:08,Routine,Completed
+CONS-0000433,ENC-007771,DOC-00090,Hospitalist,Pulmonology,2025-04-30 05:42:11,Routine,Pending
+CONS-0000434,ENC-007771,DOC-00090,Internal Medicine,Gastroenterology,2025-04-30 01:14:37,Routine,Completed
+CONS-0000435,ENC-007439,DOC-00108,Internal Medicine,Pulmonology,2025-07-01 02:04:32,Routine,Completed
+CONS-0000436,ENC-007439,DOC-00108,Family Medicine,Orthopedics,2025-07-01 23:49:36,Routine,Completed
+CONS-0000437,ENC-007439,DOC-00108,General Surgery,Orthopedics,2025-07-05 14:33:19,Routine,Completed
+CONS-0000438,ENC-007439,DOC-00108,Emergency Medicine,Pulmonology,2025-07-06 03:28:45,Urgent,Completed
+CONS-0000439,ENC-007439,DOC-00108,Family Medicine,Nephrology,2025-07-01 21:16:27,Routine,Completed
+CONS-0000440,ENC-007439,DOC-00108,General Surgery,Palliative Care,2025-07-06 05:10:20,Urgent,Completed
+CONS-0000441,ENC-007439,DOC-00108,Internal Medicine,Cardiology,2025-06-30 01:52:08,Routine,Completed
+CONS-0000442,ENC-007439,DOC-00108,Internal Medicine,Oncology,2025-07-03 18:01:06,Routine,Cancelled
+CONS-0000443,ENC-007943,DOC-00042,General Surgery,Pulmonology,2024-10-02 07:08:27,Routine,Completed
+CONS-0000444,ENC-007943,DOC-00042,Emergency Medicine,Psychiatry,2024-09-28 07:48:16,Routine,Completed
+CONS-0000445,ENC-007943,DOC-00042,Hospitalist,Orthopedics,2024-09-28 01:56:35,Routine,Completed
+CONS-0000446,ENC-007943,DOC-00042,Emergency Medicine,Psychiatry,2024-09-28 11:55:29,Routine,Completed
+CONS-0000447,ENC-007943,DOC-00042,General Surgery,Pulmonology,2024-09-28 23:35:05,Routine,Completed
+CONS-0000448,ENC-009239,DOC-00086,Family Medicine,Infectious Disease,2024-11-01 06:25:27,Urgent,Completed
+CONS-0000449,ENC-009239,DOC-00086,Emergency Medicine,Neurology,2024-11-02 21:17:49,Urgent,Completed
+CONS-0000450,ENC-009239,DOC-00086,Emergency Medicine,Palliative Care,2024-11-01 18:14:42,Routine,Cancelled
+CONS-0000451,ENC-001057,DOC-00164,Hospitalist,Neurology,2024-08-17 19:16:28,Routine,Completed
+CONS-0000452,ENC-001057,DOC-00164,General Surgery,Orthopedics,2024-08-17 07:35:46,Urgent,Completed
+CONS-0000453,ENC-001057,DOC-00164,Emergency Medicine,Palliative Care,2024-08-18 04:13:24,Routine,Completed
+CONS-0000454,ENC-001057,DOC-00164,Family Medicine,Gastroenterology,2024-08-18 15:49:02,Routine,Completed
+CONS-0000455,ENC-001057,DOC-00164,Family Medicine,Nephrology,2024-08-18 09:18:57,Routine,Completed
+CONS-0000456,ENC-003155,DOC-00076,Internal Medicine,Psychiatry,2025-06-18 13:12:36,Routine,Pending
+CONS-0000457,ENC-003155,DOC-00076,Emergency Medicine,Cardiology,2025-06-19 07:05:13,Urgent,Completed
+CONS-0000458,ENC-003155,DOC-00076,Family Medicine,Palliative Care,2025-06-21 06:49:35,Urgent,Completed
+CONS-0000459,ENC-003155,DOC-00076,Internal Medicine,Infectious Disease,2025-06-20 16:17:50,Routine,Completed
+CONS-0000460,ENC-003155,DOC-00076,Family Medicine,Neurology,2025-06-21 00:12:26,Routine,Completed
+CONS-0000461,ENC-003788,DOC-00166,Internal Medicine,Orthopedics,2025-08-14 04:49:44,Routine,Completed
+CONS-0000462,ENC-003788,DOC-00166,Family Medicine,Cardiology,2025-08-14 02:41:28,Routine,Completed
+CONS-0000463,ENC-003788,DOC-00166,Internal Medicine,Orthopedics,2025-08-13 23:11:22,Routine,Cancelled
+CONS-0000464,ENC-003788,DOC-00166,General Surgery,Pulmonology,2025-08-14 06:21:08,Urgent,Completed
+CONS-0000465,ENC-009190,DOC-00001,Family Medicine,Infectious Disease,2024-06-06 08:25:29,Urgent,Completed
+CONS-0000466,ENC-009190,DOC-00001,Family Medicine,Pulmonology,2024-06-05 02:00:42,Routine,Completed
+CONS-0000467,ENC-009190,DOC-00001,Hospitalist,Neurology,2024-06-06 06:01:11,Urgent,Cancelled
+CONS-0000468,ENC-009190,DOC-00001,Hospitalist,Psychiatry,2024-06-02 15:45:22,Urgent,Completed
+CONS-0000469,ENC-009190,DOC-00001,Family Medicine,Oncology,2024-06-01 09:25:45,Routine,Completed
+CONS-0000470,ENC-009190,DOC-00001,Family Medicine,Neurology,2024-06-01 19:17:27,Routine,Completed
+CONS-0000471,ENC-007826,DOC-00052,General Surgery,Palliative Care,2024-04-19 18:27:55,Routine,Completed
+CONS-0000472,ENC-007826,DOC-00052,Hospitalist,Palliative Care,2024-04-20 10:46:48,Routine,Completed
+CONS-0000473,ENC-007826,DOC-00052,General Surgery,Nephrology,2024-04-20 14:36:12,STAT,Completed
+CONS-0000474,ENC-007826,DOC-00052,Internal Medicine,Psychiatry,2024-04-20 01:57:59,Routine,Completed
+CONS-0000475,ENC-007540,DOC-00081,Internal Medicine,Nephrology,2025-11-06 19:53:57,Urgent,Completed
+CONS-0000476,ENC-007540,DOC-00081,Emergency Medicine,Oncology,2025-11-07 12:54:28,Urgent,Completed
+CONS-0000477,ENC-007540,DOC-00081,General Surgery,Orthopedics,2025-11-06 14:54:10,Routine,Completed
+CONS-0000478,ENC-007540,DOC-00081,Hospitalist,Neurology,2025-11-07 08:48:17,Routine,Completed
+CONS-0000479,ENC-007540,DOC-00081,Family Medicine,Gastroenterology,2025-11-08 13:03:40,Routine,Cancelled
+CONS-0000480,ENC-007540,DOC-00081,Family Medicine,Psychiatry,2025-11-06 22:20:05,Routine,Completed
+CONS-0000481,ENC-007232,DOC-00197,Hospitalist,Gastroenterology,2025-05-01 17:48:17,Routine,Completed
+CONS-0000482,ENC-007232,DOC-00197,Family Medicine,Cardiology,2025-04-30 11:47:29,Routine,Completed
+CONS-0000483,ENC-007232,DOC-00197,Family Medicine,Oncology,2025-05-02 20:38:12,Routine,Completed
+CONS-0000484,ENC-007232,DOC-00197,Emergency Medicine,Orthopedics,2025-04-29 20:46:39,Routine,Cancelled
+CONS-0000485,ENC-007232,DOC-00197,Emergency Medicine,Pulmonology,2025-04-29 22:03:23,Urgent,Completed
+CONS-0000486,ENC-007232,DOC-00197,Hospitalist,Orthopedics,2025-05-02 03:01:55,Routine,Pending
+CONS-0000487,ENC-007232,DOC-00197,General Surgery,Oncology,2025-05-01 07:12:00,Routine,Completed
+CONS-0000488,ENC-000765,DOC-00063,Hospitalist,Pulmonology,2024-10-20 22:23:32,Urgent,Completed
+CONS-0000489,ENC-005020,DOC-00074,Emergency Medicine,Nephrology,2024-07-16 15:38:34,Urgent,Completed
+CONS-0000490,ENC-005020,DOC-00074,General Surgery,Psychiatry,2024-07-20 05:12:26,STAT,Completed
+CONS-0000491,ENC-005020,DOC-00074,Hospitalist,Palliative Care,2024-07-18 02:52:40,Routine,Completed
+CONS-0000492,ENC-005020,DOC-00074,Internal Medicine,Gastroenterology,2024-07-14 18:00:27,Routine,Cancelled
+CONS-0000493,ENC-004904,DOC-00180,Internal Medicine,Nephrology,2025-11-19 05:08:13,Routine,Completed
+CONS-0000494,ENC-004904,DOC-00180,Internal Medicine,Orthopedics,2025-11-23 07:30:51,Routine,Completed
+CONS-0000495,ENC-004904,DOC-00180,General Surgery,Gastroenterology,2025-11-21 03:11:27,Routine,Completed
+CONS-0000496,ENC-004904,DOC-00180,Internal Medicine,Psychiatry,2025-11-19 19:35:10,Routine,Completed
+CONS-0000497,ENC-004904,DOC-00180,Emergency Medicine,Pulmonology,2025-11-20 21:52:22,STAT,Completed
+CONS-0000498,ENC-004904,DOC-00180,Emergency Medicine,Cardiology,2025-11-19 19:25:24,Urgent,Completed
+CONS-0000499,ENC-008094,DOC-00146,Family Medicine,Orthopedics,2024-07-06 07:24:25,Routine,Completed
+CONS-0000500,ENC-008094,DOC-00146,General Surgery,Neurology,2024-07-05 11:46:32,Routine,Completed

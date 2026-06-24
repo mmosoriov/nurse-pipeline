@@ -1,0 +1,501 @@
+encounter_id,patient_id,patient_age,patient_sex,admit_timestamp,discharge_timestamp,discharge_disposition,primary_diagnosis_code,primary_diagnosis_desc,admitting_unit,attending_provider_id
+ENC-000001,PAT-05239,72,M,2024-08-01 14:55:05,2024-08-07 09:45:46,Home,N17.9,"Acute Kidney Injury, Unspecified",ICU,DOC-00189
+ENC-000002,PAT-00840,74,M,2024-01-25 16:28:19,2024-02-01 12:46:38,Home,I21.9,"Acute Myocardial Infarction, Unspecified",MedSurg West,DOC-00060
+ENC-000003,PAT-04140,61,M,2025-07-10 03:34:22,2025-07-13 11:32:03,Skilled Nursing Facility,A41.9,"Sepsis, Unspecified",MedSurg West,DOC-00108
+ENC-000004,PAT-01806,88,F,2025-09-20 16:52:38,2025-09-26 00:54:50,Rehab,I48.91,"Atrial Fibrillation, Unspecified",MedSurg West,DOC-00041
+ENC-000005,PAT-05720,57,F,2024-04-30 18:20:52,2024-05-05 15:35:26,Home,I48.91,"Atrial Fibrillation, Unspecified",MedSurg East,DOC-00087
+ENC-000006,PAT-00838,58,M,2024-10-05 19:51:38,2024-10-08 16:42:19,Rehab,S72.001A,Hip Fracture,MedSurg East,DOC-00068
+ENC-000007,PAT-00356,68,F,2025-12-17 08:49:54,2025-12-17 20:49:54,Home,A41.9,"Sepsis, Unspecified",MedSurg West,DOC-00076
+ENC-000008,PAT-05150,39,F,2025-07-01 06:10:15,2025-07-03 22:22:51,Home,G40.909,"Epilepsy, Unspecified",MedSurg West,DOC-00059
+ENC-000009,PAT-02371,49,M,2025-11-04 00:25:34,2025-11-05 11:15:34,Home,J18.9,"Pneumonia, Unspecified",Emergency Dept,DOC-00117
+ENC-000010,PAT-05208,51,F,2024-10-02 22:43:33,2024-10-03 22:08:06,Home,J18.9,"Pneumonia, Unspecified",MedSurg East,DOC-00180
+ENC-000011,PAT-05600,86,M,2024-05-12 22:15:20,2024-05-16 06:37:05,Home,I21.9,"Acute Myocardial Infarction, Unspecified",MedSurg West,DOC-00042
+ENC-000012,PAT-03787,66,F,2025-12-19 18:32:30,2025-12-20 17:21:13,Skilled Nursing Facility,A41.9,"Sepsis, Unspecified",MedSurg East,DOC-00057
+ENC-000013,PAT-05609,56,F,2025-08-25 17:41:12,2025-08-30 12:20:31,Home,K85.9,"Acute Pancreatitis, Unspecified",Telemetry,DOC-00009
+ENC-000014,PAT-02585,47,F,2024-06-12 21:00:18,2024-06-17 10:14:18,Expired,S72.001A,Hip Fracture,MedSurg East,DOC-00184
+ENC-000015,PAT-02578,55,M,2024-11-03 07:06:47,2024-11-07 01:36:41,Expired,G40.909,"Epilepsy, Unspecified",Telemetry,DOC-00118
+ENC-000016,PAT-01171,55,F,2025-08-01 15:36:04,2025-08-13 09:45:54,Skilled Nursing Facility,J18.9,"Pneumonia, Unspecified",ICU,DOC-00192
+ENC-000017,PAT-04789,64,F,2024-11-06 05:21:54,2024-11-06 17:21:54,Home,N17.9,"Acute Kidney Injury, Unspecified",Emergency Dept,DOC-00131
+ENC-000018,PAT-04043,77,M,2025-10-30 20:07:18,2025-11-01 06:52:15,Home,G40.909,"Epilepsy, Unspecified",Telemetry,DOC-00041
+ENC-000019,PAT-05575,68,F,2024-10-25 20:34:57,2024-10-26 08:34:57,Home,I63.9,"Cerebral Infarction, Unspecified",MedSurg West,DOC-00136
+ENC-000020,PAT-02060,45,M,2024-03-29 23:23:57,2024-04-03 23:12:39,Skilled Nursing Facility,A41.9,"Sepsis, Unspecified",Telemetry,DOC-00193
+ENC-000021,PAT-02186,76,F,2024-12-03 16:36:42,2024-12-10 09:45:00,Home,I50.9,"Heart Failure, Unspecified",ICU,DOC-00185
+ENC-000022,PAT-05896,63,F,2025-08-14 20:00:17,2025-08-15 19:01:24,Home,N39.0,Urinary Tract Infection,Emergency Dept,DOC-00028
+ENC-000023,PAT-05123,42,F,2025-01-29 07:31:19,2025-02-01 00:19:52,Skilled Nursing Facility,N17.9,"Acute Kidney Injury, Unspecified",Telemetry,DOC-00096
+ENC-000024,PAT-01324,58,M,2025-01-14 12:16:14,2025-01-20 10:12:44,Home,N39.0,Urinary Tract Infection,MedSurg West,DOC-00093
+ENC-000025,PAT-02520,70,M,2025-11-12 23:17:06,2025-11-13 21:08:45,Skilled Nursing Facility,J44.1,COPD with Acute Exacerbation,ICU,DOC-00022
+ENC-000026,PAT-05996,69,F,2025-08-13 18:39:07,2025-08-17 07:32:49,Home,N17.9,"Acute Kidney Injury, Unspecified",Telemetry,DOC-00033
+ENC-000027,PAT-05405,54,F,2024-05-08 06:11:22,2024-05-09 22:44:01,Home,K85.9,"Acute Pancreatitis, Unspecified",Emergency Dept,DOC-00156
+ENC-000028,PAT-03467,80,M,2025-08-09 15:09:49,2025-08-11 13:50:39,Skilled Nursing Facility,I21.9,"Acute Myocardial Infarction, Unspecified",Emergency Dept,DOC-00183
+ENC-000029,PAT-02554,52,F,2025-05-19 18:36:18,2025-05-20 17:28:05,Home,N39.0,Urinary Tract Infection,Emergency Dept,DOC-00133
+ENC-000030,PAT-03699,69,M,2024-02-19 17:31:45,2024-02-25 11:33:19,Home,S72.001A,Hip Fracture,MedSurg East,DOC-00142
+ENC-000031,PAT-01886,57,M,2025-07-03 19:06:41,2025-07-09 10:32:38,Skilled Nursing Facility,I21.9,"Acute Myocardial Infarction, Unspecified",ICU,DOC-00018
+ENC-000032,PAT-00258,48,F,2024-07-03 20:43:40,2024-07-06 11:24:03,Home,I63.9,"Cerebral Infarction, Unspecified",ICU,DOC-00055
+ENC-000033,PAT-04418,77,M,2025-11-16 08:48:45,2025-11-24 06:11:12,Skilled Nursing Facility,I63.9,"Cerebral Infarction, Unspecified",Telemetry,DOC-00063
+ENC-000034,PAT-03875,63,F,2024-03-16 06:55:16,2024-03-22 02:17:26,Skilled Nursing Facility,K92.0,Gastrointestinal Hemorrhage,MedSurg East,DOC-00109
+ENC-000035,PAT-03368,70,F,2024-02-12 01:49:26,2024-02-12 18:14:15,Skilled Nursing Facility,G40.909,"Epilepsy, Unspecified",Emergency Dept,DOC-00026
+ENC-000036,PAT-00497,70,F,2025-09-13 20:07:33,2025-09-22 04:24:28,Rehab,I21.9,"Acute Myocardial Infarction, Unspecified",Telemetry,DOC-00050
+ENC-000037,PAT-01559,64,F,2024-05-22 12:27:53,2024-06-02 09:55:08,Home,I21.9,"Acute Myocardial Infarction, Unspecified",ICU,DOC-00020
+ENC-000038,PAT-03631,25,M,2025-02-23 21:17:22,2025-03-04 13:15:59,Rehab,J44.1,COPD with Acute Exacerbation,ICU,DOC-00193
+ENC-000039,PAT-01937,66,M,2025-01-08 21:10:16,2025-01-12 02:01:07,Home,E11.65,Type 2 Diabetes with Hyperglycemia,MedSurg West,DOC-00016
+ENC-000040,PAT-01349,66,F,2024-10-30 05:59:20,2024-10-30 17:59:20,Home,I48.91,"Atrial Fibrillation, Unspecified",ICU,DOC-00117
+ENC-000041,PAT-02337,61,F,2025-07-21 09:36:21,2025-07-26 19:01:57,Home with Home Health,A41.9,"Sepsis, Unspecified",Telemetry,DOC-00170
+ENC-000042,PAT-05886,87,F,2024-08-18 11:02:05,2024-08-21 05:21:27,Home,I50.9,"Heart Failure, Unspecified",MedSurg East,DOC-00149
+ENC-000043,PAT-04442,52,M,2024-02-14 09:38:16,2024-02-17 15:31:56,Home,I63.9,"Cerebral Infarction, Unspecified",Telemetry,DOC-00129
+ENC-000044,PAT-04351,78,M,2025-01-29 10:36:33,2025-02-05 15:04:45,Home,N17.9,"Acute Kidney Injury, Unspecified",ICU,DOC-00018
+ENC-000045,PAT-04875,57,M,2024-07-01 16:31:06,2024-07-07 11:18:51,Home,N39.0,Urinary Tract Infection,Telemetry,DOC-00146
+ENC-000046,PAT-02017,66,M,2024-11-21 14:55:07,2024-11-27 08:36:48,Skilled Nursing Facility,S72.001A,Hip Fracture,MedSurg West,DOC-00134
+ENC-000047,PAT-02592,54,F,2025-07-10 06:46:58,2025-07-13 10:15:17,Home,J18.9,"Pneumonia, Unspecified",MedSurg East,DOC-00102
+ENC-000048,PAT-01073,59,F,2025-12-22 14:09:24,2025-12-23 11:06:28,Rehab,J44.1,COPD with Acute Exacerbation,MedSurg West,DOC-00003
+ENC-000049,PAT-03755,69,M,2024-06-14 13:29:03,2024-06-21 13:04:48,Home,N17.9,"Acute Kidney Injury, Unspecified",ICU,DOC-00090
+ENC-000050,PAT-00564,65,M,2024-05-02 12:36:50,2024-05-05 20:33:13,Home,A41.9,"Sepsis, Unspecified",MedSurg East,DOC-00181
+ENC-000051,PAT-02479,43,M,2025-03-06 18:32:09,2025-03-10 05:17:49,Home,G40.909,"Epilepsy, Unspecified",Telemetry,DOC-00027
+ENC-000052,PAT-01101,59,F,2024-03-24 03:17:42,2024-03-27 22:19:51,Skilled Nursing Facility,N17.9,"Acute Kidney Injury, Unspecified",ICU,DOC-00070
+ENC-000053,PAT-02309,62,M,2024-06-07 03:19:44,2024-06-12 15:34:18,Skilled Nursing Facility,K85.9,"Acute Pancreatitis, Unspecified",Telemetry,DOC-00068
+ENC-000054,PAT-04141,93,F,2025-12-06 09:18:41,2025-12-10 12:53:28,Rehab,J44.1,COPD with Acute Exacerbation,MedSurg East,DOC-00163
+ENC-000055,PAT-03470,68,F,2024-09-16 01:56:40,2024-09-22 01:23:03,Rehab,G40.909,"Epilepsy, Unspecified",ICU,DOC-00068
+ENC-000056,PAT-01324,36,F,2024-11-28 04:39:43,2024-12-01 22:35:21,Skilled Nursing Facility,J44.1,COPD with Acute Exacerbation,MedSurg West,DOC-00020
+ENC-000057,PAT-05661,65,M,2025-10-10 05:58:43,2025-10-18 23:24:51,Home,A41.9,"Sepsis, Unspecified",MedSurg West,DOC-00038
+ENC-000058,PAT-03521,62,M,2024-10-10 05:35:48,2024-10-17 08:06:29,Expired,I48.91,"Atrial Fibrillation, Unspecified",ICU,DOC-00011
+ENC-000059,PAT-02932,64,M,2025-06-02 00:32:23,2025-06-03 14:25:08,Home,I48.91,"Atrial Fibrillation, Unspecified",Telemetry,DOC-00144
+ENC-000060,PAT-03330,82,M,2024-07-02 21:06:13,2024-07-04 16:20:26,Rehab,I48.91,"Atrial Fibrillation, Unspecified",Emergency Dept,DOC-00046
+ENC-000061,PAT-03378,76,M,2025-12-19 01:41:32,2025-12-21 01:14:29,Home,N39.0,Urinary Tract Infection,MedSurg East,DOC-00106
+ENC-000062,PAT-05488,86,M,2025-09-03 13:43:28,2025-09-04 13:38:08,Skilled Nursing Facility,E11.65,Type 2 Diabetes with Hyperglycemia,MedSurg East,DOC-00010
+ENC-000063,PAT-03856,73,M,2025-12-14 09:11:03,2025-12-22 13:31:33,Home,J18.9,"Pneumonia, Unspecified",MedSurg East,DOC-00059
+ENC-000064,PAT-01827,50,M,2024-11-05 11:56:39,2024-11-08 13:57:58,Home,K85.9,"Acute Pancreatitis, Unspecified",Telemetry,DOC-00018
+ENC-000065,PAT-02287,66,F,2024-11-06 10:32:42,2024-11-09 05:34:41,Skilled Nursing Facility,K85.9,"Acute Pancreatitis, Unspecified",MedSurg West,DOC-00138
+ENC-000066,PAT-02713,41,M,2024-07-21 21:24:15,2024-07-28 07:08:26,Home,J18.9,"Pneumonia, Unspecified",ICU,DOC-00010
+ENC-000067,PAT-00889,49,F,2025-09-02 20:05:01,2025-09-07 14:00:57,Home,S72.001A,Hip Fracture,MedSurg East,DOC-00131
+ENC-000068,PAT-00948,51,F,2024-05-27 15:19:30,2024-05-30 01:53:01,Home,J96.01,Acute Respiratory Failure with Hypoxia,Emergency Dept,DOC-00112
+ENC-000069,PAT-00014,53,M,2024-02-24 08:24:22,2024-02-27 12:08:49,Against Medical Advice,N39.0,Urinary Tract Infection,MedSurg East,DOC-00085
+ENC-000070,PAT-05105,77,F,2024-04-06 19:11:03,2024-04-08 05:19:56,Skilled Nursing Facility,J18.9,"Pneumonia, Unspecified",Telemetry,DOC-00130
+ENC-000071,PAT-02534,68,F,2025-06-25 12:54:24,2025-07-01 22:50:58,Home,N17.9,"Acute Kidney Injury, Unspecified",MedSurg East,DOC-00050
+ENC-000072,PAT-03445,40,F,2025-12-02 05:30:54,2025-12-07 04:35:34,Home,S72.001A,Hip Fracture,Telemetry,DOC-00078
+ENC-000073,PAT-03327,68,M,2024-06-12 06:05:21,2024-06-17 14:48:59,Home,S72.001A,Hip Fracture,MedSurg East,DOC-00156
+ENC-000074,PAT-05364,46,F,2024-12-09 10:27:21,2024-12-10 14:16:26,Skilled Nursing Facility,A41.9,"Sepsis, Unspecified",MedSurg West,DOC-00122
+ENC-000075,PAT-01391,72,M,2025-05-30 15:07:56,2025-06-04 00:35:14,Skilled Nursing Facility,K92.0,Gastrointestinal Hemorrhage,MedSurg East,DOC-00024
+ENC-000076,PAT-01925,68,F,2024-06-03 16:03:03,2024-06-08 03:52:49,Home,I50.9,"Heart Failure, Unspecified",MedSurg East,DOC-00063
+ENC-000077,PAT-03893,54,M,2025-11-19 06:47:21,2025-11-23 13:08:14,Skilled Nursing Facility,I21.9,"Acute Myocardial Infarction, Unspecified",MedSurg West,DOC-00184
+ENC-000078,PAT-05705,69,F,2024-07-08 12:11:58,2024-07-10 21:06:38,Home,J96.01,Acute Respiratory Failure with Hypoxia,MedSurg West,DOC-00002
+ENC-000079,PAT-00874,92,F,2025-09-16 13:41:38,2025-09-21 07:38:16,Home with Home Health,A41.9,"Sepsis, Unspecified",MedSurg East,DOC-00119
+ENC-000080,PAT-00412,47,M,2024-04-04 06:17:17,2024-04-05 23:41:37,Home,I48.91,"Atrial Fibrillation, Unspecified",Emergency Dept,DOC-00119
+ENC-000081,PAT-05469,50,F,2025-11-23 09:23:01,2025-11-25 05:17:44,Home,K85.9,"Acute Pancreatitis, Unspecified",Emergency Dept,DOC-00185
+ENC-000082,PAT-04136,82,F,2025-03-01 13:04:24,2025-03-03 23:49:56,Home,N17.9,"Acute Kidney Injury, Unspecified",Telemetry,DOC-00191
+ENC-000083,PAT-03889,79,F,2024-07-11 00:52:57,2024-07-15 15:53:45,Rehab,J18.9,"Pneumonia, Unspecified",MedSurg East,DOC-00197
+ENC-000084,PAT-04271,77,F,2024-08-01 06:52:02,2024-08-08 21:06:47,Home,J96.01,Acute Respiratory Failure with Hypoxia,MedSurg West,DOC-00074
+ENC-000085,PAT-01921,61,F,2025-11-24 15:13:36,2025-11-26 22:14:50,Home,N17.9,"Acute Kidney Injury, Unspecified",MedSurg East,DOC-00039
+ENC-000086,PAT-01895,51,F,2025-07-02 16:36:26,2025-07-05 03:39:30,Home,E11.65,Type 2 Diabetes with Hyperglycemia,Telemetry,DOC-00105
+ENC-000087,PAT-02711,63,F,2024-06-09 15:40:20,2024-06-14 03:14:51,Rehab,E11.65,Type 2 Diabetes with Hyperglycemia,MedSurg West,DOC-00198
+ENC-000088,PAT-04785,69,M,2025-08-17 15:43:02,2025-08-19 12:23:56,Skilled Nursing Facility,I63.9,"Cerebral Infarction, Unspecified",Emergency Dept,DOC-00002
+ENC-000089,PAT-02882,65,F,2025-10-24 21:25:22,2025-11-02 00:38:05,Expired,K85.9,"Acute Pancreatitis, Unspecified",Telemetry,DOC-00108
+ENC-000090,PAT-04410,61,M,2024-07-30 23:52:58,2024-08-09 05:39:03,Home,I50.9,"Heart Failure, Unspecified",MedSurg West,DOC-00100
+ENC-000091,PAT-02754,74,F,2025-10-14 20:09:40,2025-10-17 04:43:53,Home,N17.9,"Acute Kidney Injury, Unspecified",Telemetry,DOC-00160
+ENC-000092,PAT-04376,48,M,2025-04-04 17:40:51,2025-04-06 07:44:39,Skilled Nursing Facility,I50.9,"Heart Failure, Unspecified",Emergency Dept,DOC-00022
+ENC-000093,PAT-05266,61,F,2024-12-24 14:40:58,2025-01-01 22:53:26,Home,J18.9,"Pneumonia, Unspecified",ICU,DOC-00098
+ENC-000094,PAT-02682,72,M,2024-09-19 03:27:58,2024-09-22 19:10:13,Rehab,E11.65,Type 2 Diabetes with Hyperglycemia,MedSurg West,DOC-00072
+ENC-000095,PAT-03454,52,F,2024-12-31 07:09:17,2025-01-01 00:15:49,Home,A41.9,"Sepsis, Unspecified",Telemetry,DOC-00014
+ENC-000096,PAT-02867,58,M,2025-08-29 19:14:22,2025-09-05 10:37:24,Home with Home Health,I50.9,"Heart Failure, Unspecified",Telemetry,DOC-00194
+ENC-000097,PAT-00255,68,M,2024-01-16 19:54:39,2024-01-18 03:18:55,Skilled Nursing Facility,I21.9,"Acute Myocardial Infarction, Unspecified",MedSurg East,DOC-00033
+ENC-000098,PAT-03880,67,M,2024-06-18 07:09:12,2024-06-22 20:50:54,Home,J18.9,"Pneumonia, Unspecified",MedSurg West,DOC-00197
+ENC-000099,PAT-03022,51,M,2025-08-03 22:20:40,2025-08-08 00:55:23,Skilled Nursing Facility,I48.91,"Atrial Fibrillation, Unspecified",MedSurg West,DOC-00042
+ENC-000100,PAT-02549,65,M,2025-12-22 11:42:42,2025-12-24 00:02:56,Home,G40.909,"Epilepsy, Unspecified",MedSurg West,DOC-00097
+ENC-000101,PAT-03250,70,M,2025-06-20 09:59:08,2025-06-28 07:09:43,Rehab,I21.9,"Acute Myocardial Infarction, Unspecified",ICU,DOC-00027
+ENC-000102,PAT-05712,81,F,2025-04-11 08:29:01,2025-04-13 09:30:59,Rehab,I48.91,"Atrial Fibrillation, Unspecified",Emergency Dept,DOC-00145
+ENC-000103,PAT-00337,44,F,2025-05-28 19:39:05,2025-05-30 17:50:08,Home,A41.9,"Sepsis, Unspecified",MedSurg West,DOC-00166
+ENC-000104,PAT-02796,72,M,2025-09-30 17:21:33,2025-10-06 12:11:10,Home,E11.65,Type 2 Diabetes with Hyperglycemia,Telemetry,DOC-00093
+ENC-000105,PAT-05207,72,F,2024-12-04 06:04:07,2024-12-18 09:13:57,Home,A41.9,"Sepsis, Unspecified",Telemetry,DOC-00167
+ENC-000106,PAT-02213,73,F,2025-10-03 08:48:30,2025-10-09 10:30:55,Skilled Nursing Facility,J18.9,"Pneumonia, Unspecified",MedSurg West,DOC-00083
+ENC-000107,PAT-02012,79,M,2024-12-16 03:33:30,2024-12-21 06:01:30,Home,I63.9,"Cerebral Infarction, Unspecified",MedSurg East,DOC-00146
+ENC-000108,PAT-05000,60,F,2025-01-18 22:32:27,2025-01-24 06:10:16,Rehab,N17.9,"Acute Kidney Injury, Unspecified",MedSurg East,DOC-00125
+ENC-000109,PAT-01738,53,F,2024-09-21 08:22:33,2024-09-25 06:10:00,Home,S72.001A,Hip Fracture,Telemetry,DOC-00180
+ENC-000110,PAT-02264,57,M,2024-05-28 09:32:59,2024-06-01 08:40:46,Home,J96.01,Acute Respiratory Failure with Hypoxia,MedSurg West,DOC-00105
+ENC-000111,PAT-04003,95,M,2025-05-16 16:30:09,2025-05-17 04:30:09,Skilled Nursing Facility,I63.9,"Cerebral Infarction, Unspecified",Telemetry,DOC-00005
+ENC-000112,PAT-00763,75,F,2025-06-21 07:50:50,2025-06-21 21:38:12,Home,G40.909,"Epilepsy, Unspecified",MedSurg East,DOC-00149
+ENC-000113,PAT-03024,57,F,2024-09-24 00:06:08,2024-09-29 23:34:18,Home,J96.01,Acute Respiratory Failure with Hypoxia,MedSurg West,DOC-00141
+ENC-000114,PAT-02710,65,F,2024-07-29 10:14:53,2024-07-31 05:35:00,Home,I21.9,"Acute Myocardial Infarction, Unspecified",Telemetry,DOC-00031
+ENC-000115,PAT-05909,54,M,2025-07-31 00:18:24,2025-08-05 04:07:38,Home,I48.91,"Atrial Fibrillation, Unspecified",MedSurg East,DOC-00177
+ENC-000116,PAT-01517,54,M,2025-01-11 02:06:57,2025-01-15 07:42:21,Home,S72.001A,Hip Fracture,MedSurg East,DOC-00195
+ENC-000117,PAT-04298,65,F,2025-10-08 17:19:03,2025-10-09 09:36:24,Home,I21.9,"Acute Myocardial Infarction, Unspecified",Emergency Dept,DOC-00093
+ENC-000118,PAT-01470,95,F,2025-02-18 20:59:59,2025-02-26 23:26:30,Home,I50.9,"Heart Failure, Unspecified",ICU,DOC-00014
+ENC-000119,PAT-04534,34,F,2024-04-08 02:01:13,2024-04-13 01:12:27,Skilled Nursing Facility,I48.91,"Atrial Fibrillation, Unspecified",Telemetry,DOC-00126
+ENC-000120,PAT-00841,55,M,2024-12-30 14:11:35,2025-01-05 02:18:35,Home,K92.0,Gastrointestinal Hemorrhage,MedSurg West,DOC-00048
+ENC-000121,PAT-00421,53,F,2025-01-06 01:31:03,2025-01-07 04:06:52,Home,J44.1,COPD with Acute Exacerbation,Emergency Dept,DOC-00103
+ENC-000122,PAT-04029,72,M,2025-06-17 04:22:28,2025-06-22 17:07:50,Home,N17.9,"Acute Kidney Injury, Unspecified",MedSurg West,DOC-00145
+ENC-000123,PAT-02490,46,M,2024-04-02 00:05:49,2024-04-02 22:28:28,Skilled Nursing Facility,E11.65,Type 2 Diabetes with Hyperglycemia,Emergency Dept,DOC-00156
+ENC-000124,PAT-04884,57,M,2024-10-22 10:45:37,2024-10-25 07:33:37,Home,I63.9,"Cerebral Infarction, Unspecified",Telemetry,DOC-00077
+ENC-000125,PAT-04822,91,F,2025-04-27 08:47:18,2025-05-01 23:25:38,Home,J96.01,Acute Respiratory Failure with Hypoxia,MedSurg East,DOC-00026
+ENC-000126,PAT-01703,46,M,2024-03-04 01:26:38,2024-03-09 16:42:04,Home,N17.9,"Acute Kidney Injury, Unspecified",MedSurg East,DOC-00142
+ENC-000127,PAT-00615,95,M,2024-12-15 21:59:51,2024-12-25 05:08:05,Skilled Nursing Facility,I63.9,"Cerebral Infarction, Unspecified",ICU,DOC-00075
+ENC-000128,PAT-00268,42,M,2024-08-07 14:15:08,2024-08-10 10:12:32,Skilled Nursing Facility,I63.9,"Cerebral Infarction, Unspecified",MedSurg East,DOC-00019
+ENC-000129,PAT-05632,84,M,2025-09-03 22:10:43,2025-09-04 13:23:28,Rehab,S72.001A,Hip Fracture,Emergency Dept,DOC-00170
+ENC-000130,PAT-01621,71,F,2024-06-23 14:45:06,2024-07-02 03:19:31,Skilled Nursing Facility,N39.0,Urinary Tract Infection,ICU,DOC-00069
+ENC-000131,PAT-01166,51,M,2025-09-07 15:40:02,2025-09-13 16:10:53,Home,J96.01,Acute Respiratory Failure with Hypoxia,ICU,DOC-00146
+ENC-000132,PAT-02365,18,F,2025-06-18 21:53:17,2025-06-22 00:55:55,Home,E11.65,Type 2 Diabetes with Hyperglycemia,ICU,DOC-00070
+ENC-000133,PAT-04100,61,F,2025-04-09 12:12:41,2025-04-10 19:31:04,Home,E11.65,Type 2 Diabetes with Hyperglycemia,MedSurg West,DOC-00189
+ENC-000134,PAT-02641,89,F,2024-06-26 19:27:37,2024-06-28 17:17:24,Home with Home Health,K85.9,"Acute Pancreatitis, Unspecified",ICU,DOC-00148
+ENC-000135,PAT-04810,58,M,2025-06-06 04:14:13,2025-06-07 11:32:49,Rehab,S72.001A,Hip Fracture,Emergency Dept,DOC-00011
+ENC-000136,PAT-01436,86,F,2024-12-09 11:45:12,2024-12-10 10:01:55,Expired,N17.9,"Acute Kidney Injury, Unspecified",MedSurg West,DOC-00150
+ENC-000137,PAT-03571,82,F,2024-12-31 01:37:43,2025-01-01 06:37:30,Home,K92.0,Gastrointestinal Hemorrhage,Emergency Dept,DOC-00083
+ENC-000138,PAT-05490,50,M,2024-09-13 03:59:09,2024-09-14 17:39:29,Home,I63.9,"Cerebral Infarction, Unspecified",Emergency Dept,DOC-00074
+ENC-000139,PAT-05428,67,F,2025-03-03 06:32:38,2025-03-06 06:31:51,Home,J44.1,COPD with Acute Exacerbation,Telemetry,DOC-00081
+ENC-000140,PAT-02068,66,F,2025-08-23 01:20:13,2025-08-28 02:23:39,Home,A41.9,"Sepsis, Unspecified",ICU,DOC-00001
+ENC-000141,PAT-05388,66,F,2024-05-25 16:47:31,2024-05-30 19:46:27,Home,S72.001A,Hip Fracture,MedSurg West,DOC-00194
+ENC-000142,PAT-04084,88,F,2024-06-07 02:36:02,2024-06-08 12:19:53,Home,N17.9,"Acute Kidney Injury, Unspecified",Telemetry,DOC-00074
+ENC-000143,PAT-03590,95,F,2025-05-04 08:27:59,2025-05-04 20:27:59,Skilled Nursing Facility,I21.9,"Acute Myocardial Infarction, Unspecified",ICU,DOC-00182
+ENC-000144,PAT-01298,62,F,2025-03-04 22:42:44,2025-03-09 22:09:05,Home,I21.9,"Acute Myocardial Infarction, Unspecified",MedSurg West,DOC-00030
+ENC-000145,PAT-03781,69,M,2024-04-29 14:13:47,2024-05-02 03:32:24,Home,J96.01,Acute Respiratory Failure with Hypoxia,MedSurg West,DOC-00075
+ENC-000146,PAT-04169,61,F,2025-01-09 18:26:38,2025-01-12 13:58:47,Home with Home Health,I21.9,"Acute Myocardial Infarction, Unspecified",MedSurg West,DOC-00117
+ENC-000147,PAT-04516,56,M,2025-12-17 00:52:04,2025-12-22 12:50:55,Skilled Nursing Facility,J96.01,Acute Respiratory Failure with Hypoxia,MedSurg East,DOC-00035
+ENC-000148,PAT-00572,70,F,2025-10-25 15:24:04,2025-10-28 09:49:35,Home,N39.0,Urinary Tract Infection,Telemetry,DOC-00130
+ENC-000149,PAT-02189,78,M,2024-08-19 21:29:03,2024-08-24 07:26:04,Rehab,S72.001A,Hip Fracture,MedSurg East,DOC-00169
+ENC-000150,PAT-04012,77,M,2025-01-11 04:46:40,2025-01-16 06:11:59,Home,A41.9,"Sepsis, Unspecified",MedSurg West,DOC-00196
+ENC-000151,PAT-04452,52,F,2024-09-06 22:21:52,2024-09-09 14:40:32,Rehab,J96.01,Acute Respiratory Failure with Hypoxia,MedSurg West,DOC-00062
+ENC-000152,PAT-04685,76,F,2025-08-25 09:11:48,2025-08-30 09:41:39,Home,K92.0,Gastrointestinal Hemorrhage,MedSurg East,DOC-00191
+ENC-000153,PAT-03875,64,F,2025-05-30 12:03:23,2025-06-03 12:53:17,Rehab,G40.909,"Epilepsy, Unspecified",MedSurg East,DOC-00039
+ENC-000154,PAT-04058,84,M,2025-04-03 09:45:38,2025-04-07 19:58:02,Home,J44.1,COPD with Acute Exacerbation,ICU,DOC-00113
+ENC-000155,PAT-00817,73,F,2024-04-21 23:15:06,2024-04-27 13:29:37,Home,G40.909,"Epilepsy, Unspecified",ICU,DOC-00040
+ENC-000156,PAT-00613,61,F,2024-07-24 20:22:57,2024-08-01 02:18:32,Home,J96.01,Acute Respiratory Failure with Hypoxia,Telemetry,DOC-00102
+ENC-000157,PAT-05324,77,M,2025-10-24 00:47:38,2025-10-25 21:12:47,Skilled Nursing Facility,A41.9,"Sepsis, Unspecified",Emergency Dept,DOC-00098
+ENC-000158,PAT-02595,84,F,2024-01-28 21:12:27,2024-01-30 02:24:38,Skilled Nursing Facility,I21.9,"Acute Myocardial Infarction, Unspecified",Emergency Dept,DOC-00162
+ENC-000159,PAT-05607,75,F,2025-08-03 00:44:02,2025-08-03 23:34:36,Home,J44.1,COPD with Acute Exacerbation,Emergency Dept,DOC-00195
+ENC-000160,PAT-05192,69,M,2025-06-23 01:07:09,2025-06-26 14:04:20,Home,I50.9,"Heart Failure, Unspecified",MedSurg West,DOC-00012
+ENC-000161,PAT-02658,66,M,2024-10-18 03:32:39,2024-10-23 03:18:42,Home,I21.9,"Acute Myocardial Infarction, Unspecified",MedSurg East,DOC-00136
+ENC-000162,PAT-03376,52,M,2024-03-02 08:04:36,2024-03-10 07:42:40,Skilled Nursing Facility,E11.65,Type 2 Diabetes with Hyperglycemia,MedSurg East,DOC-00159
+ENC-000163,PAT-05597,49,M,2025-03-28 22:50:12,2025-03-30 07:45:20,Home,I63.9,"Cerebral Infarction, Unspecified",MedSurg West,DOC-00164
+ENC-000164,PAT-02081,82,F,2024-01-08 07:10:50,2024-01-13 16:22:49,Expired,I63.9,"Cerebral Infarction, Unspecified",MedSurg East,DOC-00074
+ENC-000165,PAT-05551,74,M,2024-09-25 09:48:36,2024-10-03 11:51:03,Home with Home Health,J18.9,"Pneumonia, Unspecified",ICU,DOC-00164
+ENC-000166,PAT-03476,64,F,2024-08-22 15:57:22,2024-08-24 16:05:16,Home,E11.65,Type 2 Diabetes with Hyperglycemia,MedSurg West,DOC-00124
+ENC-000167,PAT-00874,66,M,2024-10-05 19:29:01,2024-10-08 06:10:47,Skilled Nursing Facility,J96.01,Acute Respiratory Failure with Hypoxia,MedSurg East,DOC-00076
+ENC-000168,PAT-00180,79,F,2025-03-15 13:40:53,2025-03-19 01:49:21,Rehab,I48.91,"Atrial Fibrillation, Unspecified",MedSurg East,DOC-00191
+ENC-000169,PAT-00402,52,F,2025-12-02 07:55:36,2025-12-06 00:38:36,Home,I48.91,"Atrial Fibrillation, Unspecified",Telemetry,DOC-00059
+ENC-000170,PAT-04974,71,F,2024-05-27 16:19:01,2024-05-30 08:27:29,Skilled Nursing Facility,G40.909,"Epilepsy, Unspecified",MedSurg East,DOC-00194
+ENC-000171,PAT-05906,52,M,2025-12-02 16:39:56,2025-12-06 23:33:45,Skilled Nursing Facility,I50.9,"Heart Failure, Unspecified",MedSurg West,DOC-00080
+ENC-000172,PAT-03612,68,M,2025-07-22 20:10:32,2025-07-25 15:02:32,Home,N39.0,Urinary Tract Infection,MedSurg West,DOC-00076
+ENC-000173,PAT-02677,57,F,2024-04-12 15:38:13,2024-04-16 21:58:31,Rehab,N39.0,Urinary Tract Infection,MedSurg East,DOC-00094
+ENC-000174,PAT-04349,43,F,2024-07-18 14:16:10,2024-07-19 13:49:17,Expired,I63.9,"Cerebral Infarction, Unspecified",Telemetry,DOC-00076
+ENC-000175,PAT-02775,54,M,2024-02-28 11:40:54,2024-03-02 20:38:10,Home,I21.9,"Acute Myocardial Infarction, Unspecified",MedSurg West,DOC-00174
+ENC-000176,PAT-05933,69,F,2025-09-16 22:36:02,2025-09-19 07:43:38,Skilled Nursing Facility,J44.1,COPD with Acute Exacerbation,Emergency Dept,DOC-00102
+ENC-000177,PAT-00115,77,F,2024-12-19 05:49:33,2024-12-22 17:20:55,Home,J96.01,Acute Respiratory Failure with Hypoxia,MedSurg West,DOC-00173
+ENC-000178,PAT-02148,64,F,2024-10-15 12:46:14,2024-10-17 12:37:07,Home,I21.9,"Acute Myocardial Infarction, Unspecified",Telemetry,DOC-00121
+ENC-000179,PAT-00206,64,F,2024-06-20 22:35:01,2024-06-21 21:50:28,Skilled Nursing Facility,G40.909,"Epilepsy, Unspecified",Emergency Dept,DOC-00119
+ENC-000180,PAT-05744,69,F,2024-03-31 14:59:49,2024-04-02 18:29:23,Home,I50.9,"Heart Failure, Unspecified",MedSurg West,DOC-00078
+ENC-000181,PAT-04036,72,M,2025-11-20 03:42:44,2025-11-30 22:52:09,Home,E11.65,Type 2 Diabetes with Hyperglycemia,ICU,DOC-00117
+ENC-000182,PAT-03040,63,F,2025-07-18 08:47:23,2025-07-22 23:16:18,Home,E11.65,Type 2 Diabetes with Hyperglycemia,MedSurg West,DOC-00168
+ENC-000183,PAT-00812,75,F,2025-12-30 09:13:04,,,J18.9,"Pneumonia, Unspecified",MedSurg West,DOC-00009
+ENC-000184,PAT-05655,68,F,2024-12-11 09:43:53,2024-12-15 05:32:08,Home with Home Health,K85.9,"Acute Pancreatitis, Unspecified",MedSurg East,DOC-00093
+ENC-000185,PAT-00814,66,F,2025-05-15 20:26:34,2025-05-18 02:32:17,Home,E11.65,Type 2 Diabetes with Hyperglycemia,MedSurg West,DOC-00071
+ENC-000186,PAT-01555,65,M,2025-10-02 04:02:07,2025-10-03 18:23:48,Home,G40.909,"Epilepsy, Unspecified",Emergency Dept,DOC-00055
+ENC-000187,PAT-05257,86,M,2024-09-16 01:03:40,2024-09-25 02:55:42,Home,N17.9,"Acute Kidney Injury, Unspecified",ICU,DOC-00145
+ENC-000188,PAT-01682,95,M,2025-03-06 11:10:55,2025-03-09 01:08:27,Home,I21.9,"Acute Myocardial Infarction, Unspecified",Telemetry,DOC-00060
+ENC-000189,PAT-02692,78,M,2025-04-07 21:54:10,2025-04-12 20:54:11,Home,K85.9,"Acute Pancreatitis, Unspecified",Telemetry,DOC-00038
+ENC-000190,PAT-01065,95,F,2024-03-26 09:10:32,2024-03-28 20:40:39,Skilled Nursing Facility,I50.9,"Heart Failure, Unspecified",Telemetry,DOC-00034
+ENC-000191,PAT-00122,52,F,2024-07-03 19:21:59,2024-07-06 19:24:10,Skilled Nursing Facility,I50.9,"Heart Failure, Unspecified",Telemetry,DOC-00045
+ENC-000192,PAT-02174,33,M,2024-11-22 23:16:24,2024-11-27 14:13:08,Home,J96.01,Acute Respiratory Failure with Hypoxia,ICU,DOC-00017
+ENC-000193,PAT-03902,53,F,2025-02-02 15:26:56,2025-02-07 12:28:21,Skilled Nursing Facility,I63.9,"Cerebral Infarction, Unspecified",Telemetry,DOC-00129
+ENC-000194,PAT-01815,70,M,2025-12-06 20:21:33,2025-12-16 00:55:45,Rehab,A41.9,"Sepsis, Unspecified",Telemetry,DOC-00078
+ENC-000195,PAT-03753,79,M,2025-01-07 00:52:11,2025-01-11 12:07:57,Rehab,E11.65,Type 2 Diabetes with Hyperglycemia,ICU,DOC-00176
+ENC-000196,PAT-00885,51,F,2024-12-10 12:36:04,2024-12-16 06:06:58,Home,J44.1,COPD with Acute Exacerbation,Telemetry,DOC-00083
+ENC-000197,PAT-04984,45,M,2024-08-01 14:40:11,2024-08-13 07:20:05,Skilled Nursing Facility,S72.001A,Hip Fracture,ICU,DOC-00141
+ENC-000198,PAT-05834,82,F,2025-04-09 00:11:28,2025-04-11 20:52:14,Home,I63.9,"Cerebral Infarction, Unspecified",MedSurg East,DOC-00130
+ENC-000199,PAT-04960,39,F,2025-06-29 02:06:59,2025-07-09 08:23:42,Home,G40.909,"Epilepsy, Unspecified",ICU,DOC-00167
+ENC-000200,PAT-04517,63,M,2025-11-20 19:12:59,2025-11-27 01:49:53,Home,K92.0,Gastrointestinal Hemorrhage,MedSurg West,DOC-00117
+ENC-000201,PAT-03267,41,F,2024-08-30 18:19:24,2024-09-02 18:21:38,Home,G40.909,"Epilepsy, Unspecified",Telemetry,DOC-00066
+ENC-000202,PAT-03067,65,M,2025-01-03 08:59:39,2025-01-07 23:48:46,Home,K85.9,"Acute Pancreatitis, Unspecified",Telemetry,DOC-00022
+ENC-000203,PAT-00764,58,F,2025-07-27 20:09:20,2025-08-04 21:48:02,Home,N17.9,"Acute Kidney Injury, Unspecified",ICU,DOC-00143
+ENC-000204,PAT-00492,48,F,2024-11-15 02:01:40,2024-11-19 05:29:06,Home,G40.909,"Epilepsy, Unspecified",Telemetry,DOC-00193
+ENC-000205,PAT-03465,66,M,2025-04-11 08:27:19,2025-04-12 23:07:57,Home,J44.1,COPD with Acute Exacerbation,Emergency Dept,DOC-00148
+ENC-000206,PAT-04157,75,M,2025-01-09 12:39:42,2025-01-11 01:52:43,Home,J44.1,COPD with Acute Exacerbation,MedSurg East,DOC-00090
+ENC-000207,PAT-04557,41,F,2024-08-04 08:53:16,2024-08-14 09:40:49,Skilled Nursing Facility,I48.91,"Atrial Fibrillation, Unspecified",ICU,DOC-00110
+ENC-000208,PAT-04596,69,M,2025-05-25 22:51:46,2025-05-28 06:08:07,Rehab,J18.9,"Pneumonia, Unspecified",MedSurg West,DOC-00008
+ENC-000209,PAT-01478,88,F,2024-08-27 23:53:31,2024-09-01 18:49:56,Expired,K92.0,Gastrointestinal Hemorrhage,Telemetry,DOC-00002
+ENC-000210,PAT-01487,82,M,2024-11-07 07:09:42,2024-11-11 05:36:09,Home,J96.01,Acute Respiratory Failure with Hypoxia,MedSurg West,DOC-00163
+ENC-000211,PAT-00252,95,M,2024-06-16 02:22:03,2024-06-24 23:41:16,Home,I63.9,"Cerebral Infarction, Unspecified",Telemetry,DOC-00088
+ENC-000212,PAT-01290,61,F,2024-09-08 22:56:07,2024-09-14 16:46:14,Rehab,S72.001A,Hip Fracture,MedSurg East,DOC-00153
+ENC-000213,PAT-00696,74,M,2025-08-08 23:42:14,2025-08-15 12:35:53,Skilled Nursing Facility,G40.909,"Epilepsy, Unspecified",MedSurg East,DOC-00021
+ENC-000214,PAT-02230,50,F,2025-01-12 05:23:25,2025-01-18 10:33:12,Skilled Nursing Facility,E11.65,Type 2 Diabetes with Hyperglycemia,Telemetry,DOC-00070
+ENC-000215,PAT-01766,80,M,2024-03-27 03:08:06,2024-03-27 15:08:06,Home,G40.909,"Epilepsy, Unspecified",MedSurg East,DOC-00152
+ENC-000216,PAT-03987,47,F,2024-11-03 00:14:37,2024-11-03 12:14:37,Home with Home Health,I50.9,"Heart Failure, Unspecified",ICU,DOC-00002
+ENC-000217,PAT-01675,60,F,2025-08-19 00:25:55,2025-08-20 19:00:31,Home,J18.9,"Pneumonia, Unspecified",Emergency Dept,DOC-00075
+ENC-000218,PAT-02688,87,M,2025-08-03 05:21:09,2025-08-09 15:29:14,Home,N17.9,"Acute Kidney Injury, Unspecified",ICU,DOC-00098
+ENC-000219,PAT-04363,89,M,2025-10-09 06:50:53,2025-10-10 07:48:11,Skilled Nursing Facility,K92.0,Gastrointestinal Hemorrhage,MedSurg West,DOC-00019
+ENC-000220,PAT-03253,39,M,2024-12-23 02:26:25,2024-12-26 18:58:26,Expired,K85.9,"Acute Pancreatitis, Unspecified",MedSurg West,DOC-00081
+ENC-000221,PAT-04717,70,F,2025-07-05 02:01:09,2025-07-08 19:38:59,Skilled Nursing Facility,J18.9,"Pneumonia, Unspecified",MedSurg West,DOC-00030
+ENC-000222,PAT-03319,33,M,2024-05-13 11:56:53,2024-05-14 15:02:13,Rehab,S72.001A,Hip Fracture,Emergency Dept,DOC-00118
+ENC-000223,PAT-05650,45,F,2025-10-17 22:19:46,2025-10-26 03:20:45,Home,E11.65,Type 2 Diabetes with Hyperglycemia,ICU,DOC-00151
+ENC-000224,PAT-03281,70,M,2024-08-28 23:56:13,2024-08-30 22:01:21,Skilled Nursing Facility,I21.9,"Acute Myocardial Infarction, Unspecified",MedSurg East,DOC-00086
+ENC-000225,PAT-01378,57,M,2024-03-29 13:36:38,2024-03-31 05:58:05,Home,I21.9,"Acute Myocardial Infarction, Unspecified",MedSurg West,DOC-00199
+ENC-000226,PAT-02863,64,F,2025-09-28 02:18:30,2025-10-04 23:37:00,Skilled Nursing Facility,N17.9,"Acute Kidney Injury, Unspecified",Telemetry,DOC-00061
+ENC-000227,PAT-00843,50,M,2024-05-14 18:15:22,2024-05-19 13:39:01,Skilled Nursing Facility,I48.91,"Atrial Fibrillation, Unspecified",MedSurg East,DOC-00195
+ENC-000228,PAT-05370,57,M,2025-08-23 06:55:57,2025-08-25 12:04:28,Skilled Nursing Facility,I63.9,"Cerebral Infarction, Unspecified",MedSurg East,DOC-00194
+ENC-000229,PAT-04619,63,F,2025-11-16 02:34:09,2025-11-18 00:27:16,Skilled Nursing Facility,G40.909,"Epilepsy, Unspecified",Telemetry,DOC-00160
+ENC-000230,PAT-02648,56,F,2024-02-23 00:56:53,2024-02-24 10:38:59,Home,G40.909,"Epilepsy, Unspecified",MedSurg East,DOC-00078
+ENC-000231,PAT-02251,94,M,2024-02-27 15:00:50,2024-03-02 11:54:23,Home,I63.9,"Cerebral Infarction, Unspecified",MedSurg East,DOC-00010
+ENC-000232,PAT-00467,54,F,2024-02-29 14:22:10,2024-03-05 15:12:29,Skilled Nursing Facility,K85.9,"Acute Pancreatitis, Unspecified",Telemetry,DOC-00024
+ENC-000233,PAT-05039,63,F,2025-03-06 13:12:21,2025-03-09 21:47:57,Home with Home Health,J96.01,Acute Respiratory Failure with Hypoxia,MedSurg West,DOC-00011
+ENC-000234,PAT-03685,74,M,2025-01-04 10:22:03,2025-01-09 17:55:40,Home,I50.9,"Heart Failure, Unspecified",MedSurg East,DOC-00116
+ENC-000235,PAT-00848,57,F,2024-03-06 12:00:32,2024-03-07 05:45:11,Home,N17.9,"Acute Kidney Injury, Unspecified",Emergency Dept,DOC-00011
+ENC-000236,PAT-02030,60,F,2025-02-11 01:20:45,2025-02-11 13:20:45,Home,N17.9,"Acute Kidney Injury, Unspecified",Emergency Dept,DOC-00094
+ENC-000237,PAT-03055,42,F,2025-08-24 13:04:12,2025-08-31 01:52:47,Home,S72.001A,Hip Fracture,MedSurg East,DOC-00014
+ENC-000238,PAT-05169,89,F,2024-03-14 09:43:06,2024-03-19 20:35:15,Skilled Nursing Facility,E11.65,Type 2 Diabetes with Hyperglycemia,ICU,DOC-00073
+ENC-000239,PAT-02065,73,M,2025-03-28 15:03:06,2025-04-02 01:11:30,Skilled Nursing Facility,N39.0,Urinary Tract Infection,MedSurg East,DOC-00090
+ENC-000240,PAT-02542,95,F,2025-07-04 13:37:25,2025-07-14 03:01:58,Against Medical Advice,J18.9,"Pneumonia, Unspecified",ICU,DOC-00144
+ENC-000241,PAT-03086,63,F,2025-06-04 11:52:30,2025-06-06 14:32:33,Skilled Nursing Facility,J96.01,Acute Respiratory Failure with Hypoxia,Telemetry,DOC-00176
+ENC-000242,PAT-04313,40,M,2024-11-24 20:52:00,2024-11-29 01:49:58,Home,I50.9,"Heart Failure, Unspecified",MedSurg West,DOC-00093
+ENC-000243,PAT-02531,53,M,2024-09-22 10:21:09,2024-09-22 22:21:09,Against Medical Advice,I63.9,"Cerebral Infarction, Unspecified",Emergency Dept,DOC-00050
+ENC-000244,PAT-01856,55,M,2024-08-17 17:57:51,2024-08-19 09:14:59,Rehab,J44.1,COPD with Acute Exacerbation,MedSurg East,DOC-00130
+ENC-000245,PAT-04422,90,M,2025-11-11 17:08:43,2025-11-18 10:02:37,Rehab,N17.9,"Acute Kidney Injury, Unspecified",Telemetry,DOC-00153
+ENC-000246,PAT-03087,64,M,2025-10-07 17:23:42,2025-10-14 11:37:56,Skilled Nursing Facility,S72.001A,Hip Fracture,MedSurg East,DOC-00043
+ENC-000247,PAT-05908,66,F,2024-10-09 23:01:59,2024-10-13 13:49:14,Skilled Nursing Facility,I21.9,"Acute Myocardial Infarction, Unspecified",ICU,DOC-00114
+ENC-000248,PAT-05002,87,F,2025-08-31 19:05:51,2025-09-06 15:25:55,Home,A41.9,"Sepsis, Unspecified",Telemetry,DOC-00062
+ENC-000249,PAT-02536,49,F,2024-05-30 16:43:25,2024-05-31 17:52:08,Home,S72.001A,Hip Fracture,Emergency Dept,DOC-00113
+ENC-000250,PAT-03783,51,F,2025-01-25 14:51:36,2025-01-26 15:53:31,Home,N17.9,"Acute Kidney Injury, Unspecified",Telemetry,DOC-00052
+ENC-000251,PAT-04954,78,M,2024-02-10 12:42:07,2024-02-13 06:09:45,Skilled Nursing Facility,K85.9,"Acute Pancreatitis, Unspecified",Emergency Dept,DOC-00096
+ENC-000252,PAT-04543,44,M,2025-02-04 17:14:52,2025-02-10 15:01:33,Rehab,J18.9,"Pneumonia, Unspecified",Telemetry,DOC-00022
+ENC-000253,PAT-01314,55,F,2025-02-02 17:35:19,2025-02-05 13:24:23,Home,E11.65,Type 2 Diabetes with Hyperglycemia,MedSurg West,DOC-00024
+ENC-000254,PAT-01819,56,F,2025-12-23 17:15:14,2025-12-24 05:27:54,Home,I50.9,"Heart Failure, Unspecified",Emergency Dept,DOC-00102
+ENC-000255,PAT-04113,65,F,2024-03-04 09:14:08,2024-03-06 12:32:59,Home,I50.9,"Heart Failure, Unspecified",MedSurg East,DOC-00082
+ENC-000256,PAT-00812,69,F,2024-04-16 21:02:32,2024-04-21 06:01:40,Home,N39.0,Urinary Tract Infection,Telemetry,DOC-00121
+ENC-000257,PAT-05703,61,M,2024-12-30 08:50:47,2025-01-01 14:23:33,Home,I50.9,"Heart Failure, Unspecified",Telemetry,DOC-00021
+ENC-000258,PAT-00156,56,F,2024-04-26 03:14:51,2024-05-01 10:42:22,Home,J96.01,Acute Respiratory Failure with Hypoxia,MedSurg East,DOC-00156
+ENC-000259,PAT-04324,72,F,2024-08-11 18:36:09,2024-08-15 01:01:06,Home,J44.1,COPD with Acute Exacerbation,ICU,DOC-00013
+ENC-000260,PAT-01954,66,F,2025-04-28 18:01:49,2025-05-04 01:17:48,Home,J44.1,COPD with Acute Exacerbation,MedSurg West,DOC-00128
+ENC-000261,PAT-04889,39,M,2025-03-22 15:39:41,2025-03-27 12:56:33,Home,N17.9,"Acute Kidney Injury, Unspecified",MedSurg West,DOC-00075
+ENC-000262,PAT-03517,55,M,2024-07-05 20:26:32,2024-07-10 19:01:51,Skilled Nursing Facility,N17.9,"Acute Kidney Injury, Unspecified",MedSurg West,DOC-00171
+ENC-000263,PAT-05475,53,M,2024-10-07 02:08:28,2024-10-07 14:08:28,Home,A41.9,"Sepsis, Unspecified",MedSurg West,DOC-00140
+ENC-000264,PAT-04157,40,M,2024-12-31 03:57:11,2025-01-04 01:27:40,Home,E11.65,Type 2 Diabetes with Hyperglycemia,MedSurg East,DOC-00096
+ENC-000265,PAT-02078,68,M,2024-02-22 11:24:05,2024-02-24 11:11:39,Home,J96.01,Acute Respiratory Failure with Hypoxia,MedSurg East,DOC-00169
+ENC-000266,PAT-05147,74,M,2025-07-25 00:52:43,2025-07-25 12:52:43,Rehab,N17.9,"Acute Kidney Injury, Unspecified",Telemetry,DOC-00012
+ENC-000267,PAT-02887,64,F,2024-05-15 23:53:52,2024-05-17 11:14:12,Rehab,G40.909,"Epilepsy, Unspecified",Telemetry,DOC-00119
+ENC-000268,PAT-05697,55,F,2025-09-22 07:24:47,2025-09-26 04:53:17,Home,J96.01,Acute Respiratory Failure with Hypoxia,MedSurg West,DOC-00199
+ENC-000269,PAT-03750,52,M,2024-02-04 00:36:29,2024-02-07 01:20:57,Rehab,N39.0,Urinary Tract Infection,MedSurg East,DOC-00011
+ENC-000270,PAT-02586,80,F,2025-09-25 08:16:15,2025-09-27 23:46:48,Home,J18.9,"Pneumonia, Unspecified",MedSurg West,DOC-00010
+ENC-000271,PAT-05300,77,M,2025-10-31 15:25:37,2025-11-02 04:24:03,Rehab,K85.9,"Acute Pancreatitis, Unspecified",MedSurg East,DOC-00168
+ENC-000272,PAT-02720,72,F,2024-10-12 20:22:28,2024-10-23 08:58:02,Home,E11.65,Type 2 Diabetes with Hyperglycemia,ICU,DOC-00191
+ENC-000273,PAT-03603,27,F,2024-05-25 02:31:31,2024-05-27 07:28:27,Home,I63.9,"Cerebral Infarction, Unspecified",MedSurg East,DOC-00095
+ENC-000274,PAT-04254,73,F,2025-07-18 17:46:41,2025-07-22 17:35:43,Home,E11.65,Type 2 Diabetes with Hyperglycemia,Telemetry,DOC-00155
+ENC-000275,PAT-01479,70,F,2024-03-03 04:35:33,2024-03-05 18:48:04,Home,J18.9,"Pneumonia, Unspecified",MedSurg East,DOC-00079
+ENC-000276,PAT-03653,66,F,2024-12-10 19:03:07,2024-12-14 06:46:45,Home,I50.9,"Heart Failure, Unspecified",MedSurg East,DOC-00187
+ENC-000277,PAT-02889,82,F,2025-09-06 18:12:57,2025-09-11 01:37:40,Against Medical Advice,J44.1,COPD with Acute Exacerbation,MedSurg East,DOC-00172
+ENC-000278,PAT-05223,70,F,2025-09-14 05:30:40,2025-09-17 04:56:27,Skilled Nursing Facility,N17.9,"Acute Kidney Injury, Unspecified",MedSurg East,DOC-00008
+ENC-000279,PAT-01170,57,F,2024-02-22 05:19:14,2024-02-27 02:58:34,Home,G40.909,"Epilepsy, Unspecified",ICU,DOC-00094
+ENC-000280,PAT-02967,70,F,2024-01-26 03:42:22,2024-01-27 00:25:23,Skilled Nursing Facility,G40.909,"Epilepsy, Unspecified",Emergency Dept,DOC-00116
+ENC-000281,PAT-03039,69,F,2024-02-29 17:14:53,2024-03-08 16:04:02,Skilled Nursing Facility,A41.9,"Sepsis, Unspecified",MedSurg West,DOC-00094
+ENC-000282,PAT-03261,78,F,2024-07-12 21:05:54,2024-07-16 00:38:57,Home with Home Health,I50.9,"Heart Failure, Unspecified",MedSurg West,DOC-00189
+ENC-000283,PAT-01525,83,F,2025-12-10 13:39:59,2025-12-13 13:16:43,Skilled Nursing Facility,J18.9,"Pneumonia, Unspecified",MedSurg West,DOC-00199
+ENC-000284,PAT-02133,34,F,2025-04-20 06:13:02,2025-04-22 01:01:44,Home,N39.0,Urinary Tract Infection,MedSurg East,DOC-00126
+ENC-000285,PAT-01640,36,M,2024-02-27 12:25:48,2024-03-03 15:55:15,Home,N39.0,Urinary Tract Infection,ICU,DOC-00183
+ENC-000286,PAT-03647,65,M,2025-10-18 17:39:28,2025-10-27 10:14:38,Home with Home Health,G40.909,"Epilepsy, Unspecified",Telemetry,DOC-00089
+ENC-000287,PAT-05813,69,M,2024-08-13 12:44:42,2024-08-16 21:25:41,Expired,K85.9,"Acute Pancreatitis, Unspecified",MedSurg West,DOC-00041
+ENC-000288,PAT-05832,77,M,2025-01-30 03:53:40,2025-01-30 15:53:40,Home,I21.9,"Acute Myocardial Infarction, Unspecified",Telemetry,DOC-00036
+ENC-000289,PAT-01940,68,F,2025-03-06 07:42:29,2025-03-14 20:00:37,Skilled Nursing Facility,I63.9,"Cerebral Infarction, Unspecified",ICU,DOC-00142
+ENC-000290,PAT-01064,42,M,2024-11-05 06:14:23,2024-11-14 21:23:24,Home with Home Health,J96.01,Acute Respiratory Failure with Hypoxia,ICU,DOC-00123
+ENC-000291,PAT-04307,70,F,2025-10-01 12:09:31,2025-10-04 23:14:28,Skilled Nursing Facility,N17.9,"Acute Kidney Injury, Unspecified",Telemetry,DOC-00082
+ENC-000292,PAT-05263,74,M,2025-06-12 06:09:01,2025-06-20 14:20:36,Home,N17.9,"Acute Kidney Injury, Unspecified",MedSurg West,DOC-00200
+ENC-000293,PAT-04517,67,M,2024-04-10 05:20:55,2024-04-15 08:14:30,Home,N39.0,Urinary Tract Infection,Telemetry,DOC-00015
+ENC-000294,PAT-01018,58,M,2024-05-05 19:16:58,2024-05-07 21:41:24,Home,J96.01,Acute Respiratory Failure with Hypoxia,MedSurg East,DOC-00058
+ENC-000295,PAT-02835,77,F,2024-07-13 15:37:17,2024-07-16 00:15:22,Home,A41.9,"Sepsis, Unspecified",Telemetry,DOC-00071
+ENC-000296,PAT-01026,66,F,2024-03-13 13:37:54,2024-03-16 09:54:14,Home,N17.9,"Acute Kidney Injury, Unspecified",MedSurg West,DOC-00152
+ENC-000297,PAT-04757,72,M,2025-04-30 01:08:08,2025-05-04 12:21:04,Skilled Nursing Facility,S72.001A,Hip Fracture,MedSurg East,DOC-00087
+ENC-000298,PAT-04618,80,M,2024-01-23 00:55:12,2024-01-26 06:19:08,Home,G40.909,"Epilepsy, Unspecified",Telemetry,DOC-00198
+ENC-000299,PAT-04725,60,F,2025-08-18 17:09:07,2025-08-20 18:25:34,Skilled Nursing Facility,S72.001A,Hip Fracture,Telemetry,DOC-00164
+ENC-000300,PAT-00249,58,F,2025-02-27 18:18:05,2025-03-01 06:20:44,Home,J18.9,"Pneumonia, Unspecified",Emergency Dept,DOC-00124
+ENC-000301,PAT-02007,76,F,2024-02-26 16:18:56,2024-02-28 15:15:05,Skilled Nursing Facility,N17.9,"Acute Kidney Injury, Unspecified",MedSurg East,DOC-00113
+ENC-000302,PAT-03405,78,F,2024-09-21 05:38:56,2024-09-27 17:55:10,Skilled Nursing Facility,K92.0,Gastrointestinal Hemorrhage,MedSurg West,DOC-00184
+ENC-000303,PAT-02616,71,F,2024-04-11 13:39:27,2024-04-14 06:29:31,Rehab,A41.9,"Sepsis, Unspecified",Emergency Dept,DOC-00144
+ENC-000304,PAT-00870,53,F,2024-04-05 03:58:26,2024-04-06 11:25:49,Home,I21.9,"Acute Myocardial Infarction, Unspecified",MedSurg East,DOC-00037
+ENC-000305,PAT-00794,38,M,2024-10-25 09:04:18,2024-11-01 04:04:54,Rehab,E11.65,Type 2 Diabetes with Hyperglycemia,MedSurg East,DOC-00064
+ENC-000306,PAT-01309,74,F,2025-07-14 02:48:29,2025-07-15 06:32:26,Home,I48.91,"Atrial Fibrillation, Unspecified",Emergency Dept,DOC-00041
+ENC-000307,PAT-04082,69,F,2024-08-27 15:36:41,2024-08-29 04:47:16,Home,J44.1,COPD with Acute Exacerbation,MedSurg West,DOC-00101
+ENC-000308,PAT-04141,95,F,2024-06-16 02:34:57,2024-06-17 09:51:48,Skilled Nursing Facility,I50.9,"Heart Failure, Unspecified",Emergency Dept,DOC-00013
+ENC-000309,PAT-02305,66,F,2025-10-16 15:51:22,2025-10-21 21:53:34,Skilled Nursing Facility,I63.9,"Cerebral Infarction, Unspecified",MedSurg West,DOC-00074
+ENC-000310,PAT-04397,72,M,2024-11-30 17:04:33,2024-12-05 18:30:31,Home,J18.9,"Pneumonia, Unspecified",Telemetry,DOC-00187
+ENC-000311,PAT-02997,53,F,2024-11-07 03:22:57,2024-11-11 21:12:46,Home,A41.9,"Sepsis, Unspecified",MedSurg East,DOC-00050
+ENC-000312,PAT-02970,93,F,2025-01-26 16:00:15,2025-02-05 21:40:27,Home,A41.9,"Sepsis, Unspecified",ICU,DOC-00072
+ENC-000313,PAT-05106,88,M,2024-03-16 02:16:24,2024-03-20 18:15:56,Home,I48.91,"Atrial Fibrillation, Unspecified",ICU,DOC-00087
+ENC-000314,PAT-04570,50,F,2024-06-03 14:42:28,2024-06-07 19:09:38,Skilled Nursing Facility,E11.65,Type 2 Diabetes with Hyperglycemia,Telemetry,DOC-00129
+ENC-000315,PAT-00330,65,M,2025-07-08 06:18:58,2025-07-17 17:53:52,Home,I63.9,"Cerebral Infarction, Unspecified",ICU,DOC-00133
+ENC-000316,PAT-03744,39,M,2025-02-04 09:43:24,2025-02-11 06:20:30,Home,N39.0,Urinary Tract Infection,MedSurg West,DOC-00157
+ENC-000317,PAT-02610,62,M,2025-04-23 20:24:07,2025-04-26 19:06:41,Skilled Nursing Facility,J18.9,"Pneumonia, Unspecified",MedSurg East,DOC-00152
+ENC-000318,PAT-02756,49,F,2024-08-20 20:30:04,2024-08-21 08:30:04,Home,I50.9,"Heart Failure, Unspecified",Telemetry,DOC-00095
+ENC-000319,PAT-02714,77,M,2025-03-29 08:59:47,2025-03-30 15:12:14,Home,N39.0,Urinary Tract Infection,Emergency Dept,DOC-00186
+ENC-000320,PAT-05637,45,M,2024-07-25 05:50:45,2024-07-26 10:52:55,Home with Home Health,I48.91,"Atrial Fibrillation, Unspecified",MedSurg West,DOC-00199
+ENC-000321,PAT-04739,59,M,2025-03-29 05:39:44,2025-04-06 21:48:12,Home,A41.9,"Sepsis, Unspecified",Telemetry,DOC-00162
+ENC-000322,PAT-05908,61,F,2025-06-12 17:40:08,2025-06-14 10:14:33,Home,S72.001A,Hip Fracture,ICU,DOC-00180
+ENC-000323,PAT-00901,61,M,2024-08-31 15:39:06,2024-09-06 00:48:56,Home,E11.65,Type 2 Diabetes with Hyperglycemia,ICU,DOC-00177
+ENC-000324,PAT-01671,24,F,2025-04-19 22:46:37,2025-04-23 15:22:14,Expired,K85.9,"Acute Pancreatitis, Unspecified",MedSurg West,DOC-00189
+ENC-000325,PAT-05959,61,M,2025-02-06 20:57:21,2025-02-13 02:43:41,Home,K92.0,Gastrointestinal Hemorrhage,Telemetry,DOC-00170
+ENC-000326,PAT-03919,92,F,2024-05-14 12:21:15,2024-05-20 13:37:45,Home,A41.9,"Sepsis, Unspecified",MedSurg East,DOC-00088
+ENC-000327,PAT-04476,60,F,2025-11-04 22:15:01,2025-11-06 15:51:31,Skilled Nursing Facility,G40.909,"Epilepsy, Unspecified",Telemetry,DOC-00178
+ENC-000328,PAT-02166,95,F,2024-07-10 11:26:59,2024-07-14 09:29:31,Home,J18.9,"Pneumonia, Unspecified",MedSurg East,DOC-00058
+ENC-000329,PAT-02439,65,F,2025-06-20 03:00:16,2025-06-24 13:33:24,Skilled Nursing Facility,K92.0,Gastrointestinal Hemorrhage,Telemetry,DOC-00123
+ENC-000330,PAT-02858,67,F,2025-03-21 10:22:56,2025-03-24 22:39:10,Skilled Nursing Facility,E11.65,Type 2 Diabetes with Hyperglycemia,MedSurg East,DOC-00102
+ENC-000331,PAT-02828,56,M,2024-08-11 09:49:05,2024-08-14 02:46:07,Home with Home Health,J44.1,COPD with Acute Exacerbation,MedSurg East,DOC-00089
+ENC-000332,PAT-03624,64,F,2024-06-15 05:00:11,2024-06-18 08:23:51,Home,A41.9,"Sepsis, Unspecified",Telemetry,DOC-00070
+ENC-000333,PAT-04605,54,F,2025-04-23 05:03:06,2025-04-29 17:30:52,Skilled Nursing Facility,I21.9,"Acute Myocardial Infarction, Unspecified",ICU,DOC-00063
+ENC-000334,PAT-00416,61,M,2024-02-10 18:30:18,2024-02-17 13:53:47,Home,K92.0,Gastrointestinal Hemorrhage,MedSurg West,DOC-00184
+ENC-000335,PAT-03870,25,M,2024-04-16 18:34:16,2024-04-24 00:03:41,Home,A41.9,"Sepsis, Unspecified",Telemetry,DOC-00041
+ENC-000336,PAT-03334,83,F,2024-06-03 22:07:43,2024-06-04 10:07:43,Rehab,J18.9,"Pneumonia, Unspecified",MedSurg West,DOC-00083
+ENC-000337,PAT-02339,59,M,2024-03-10 11:40:07,2024-03-11 09:20:13,Skilled Nursing Facility,I21.9,"Acute Myocardial Infarction, Unspecified",Emergency Dept,DOC-00137
+ENC-000338,PAT-05924,43,M,2024-05-15 23:26:38,2024-05-16 13:18:35,Home,K85.9,"Acute Pancreatitis, Unspecified",Emergency Dept,DOC-00046
+ENC-000339,PAT-00298,48,F,2024-05-24 17:06:01,2024-06-02 14:14:11,Against Medical Advice,K85.9,"Acute Pancreatitis, Unspecified",Telemetry,DOC-00075
+ENC-000340,PAT-00307,79,M,2025-04-13 04:41:20,2025-04-19 12:55:24,Home,K92.0,Gastrointestinal Hemorrhage,MedSurg East,DOC-00073
+ENC-000341,PAT-03723,75,F,2024-04-14 05:40:05,2024-04-14 17:40:05,Rehab,I63.9,"Cerebral Infarction, Unspecified",Emergency Dept,DOC-00070
+ENC-000342,PAT-01580,57,M,2025-07-21 21:03:01,2025-07-26 15:44:24,Home,J18.9,"Pneumonia, Unspecified",MedSurg East,DOC-00184
+ENC-000343,PAT-01526,46,M,2025-09-06 04:58:39,2025-09-12 11:45:26,Home,G40.909,"Epilepsy, Unspecified",Telemetry,DOC-00194
+ENC-000344,PAT-01583,61,M,2025-05-11 02:42:42,2025-05-14 03:55:12,Expired,K85.9,"Acute Pancreatitis, Unspecified",MedSurg West,DOC-00110
+ENC-000345,PAT-04222,75,F,2025-06-03 19:50:00,2025-06-11 08:37:13,Home,N17.9,"Acute Kidney Injury, Unspecified",ICU,DOC-00123
+ENC-000346,PAT-02651,59,M,2024-10-24 22:20:41,2024-11-03 14:36:59,Home,I48.91,"Atrial Fibrillation, Unspecified",ICU,DOC-00069
+ENC-000347,PAT-02701,48,F,2025-03-20 23:12:28,2025-03-25 23:58:21,Home,G40.909,"Epilepsy, Unspecified",MedSurg West,DOC-00093
+ENC-000348,PAT-05676,73,M,2024-04-01 19:52:15,2024-04-07 02:23:00,Home,N17.9,"Acute Kidney Injury, Unspecified",ICU,DOC-00104
+ENC-000349,PAT-05621,69,F,2025-05-11 02:26:31,2025-05-12 11:22:30,Expired,J18.9,"Pneumonia, Unspecified",Telemetry,DOC-00095
+ENC-000350,PAT-05036,78,M,2024-04-13 17:54:09,2024-04-17 04:13:37,Home,I63.9,"Cerebral Infarction, Unspecified",MedSurg East,DOC-00192
+ENC-000351,PAT-04963,57,F,2025-03-02 14:28:23,2025-03-08 12:01:31,Expired,I48.91,"Atrial Fibrillation, Unspecified",MedSurg West,DOC-00138
+ENC-000352,PAT-05441,54,M,2025-06-12 10:29:33,2025-06-13 09:59:05,Rehab,K85.9,"Acute Pancreatitis, Unspecified",Telemetry,DOC-00021
+ENC-000353,PAT-04305,41,F,2024-10-08 00:09:31,2024-10-13 00:26:49,Home,S72.001A,Hip Fracture,MedSurg West,DOC-00029
+ENC-000354,PAT-00506,45,M,2024-04-26 09:27:03,2024-05-03 16:52:51,Home,K85.9,"Acute Pancreatitis, Unspecified",MedSurg West,DOC-00134
+ENC-000355,PAT-03620,33,M,2025-07-10 20:19:10,2025-07-19 14:06:24,Skilled Nursing Facility,J44.1,COPD with Acute Exacerbation,Telemetry,DOC-00131
+ENC-000356,PAT-03650,68,M,2025-02-02 15:37:59,2025-02-06 06:11:26,Home,S72.001A,Hip Fracture,MedSurg West,DOC-00015
+ENC-000357,PAT-04578,56,F,2024-08-27 08:41:49,2024-09-01 20:38:42,Skilled Nursing Facility,E11.65,Type 2 Diabetes with Hyperglycemia,Telemetry,DOC-00066
+ENC-000358,PAT-00025,64,M,2024-02-05 04:15:47,2024-02-11 04:25:17,Home,J96.01,Acute Respiratory Failure with Hypoxia,MedSurg West,DOC-00017
+ENC-000359,PAT-04434,66,M,2024-02-23 14:36:36,2024-02-24 22:17:44,Home with Home Health,I63.9,"Cerebral Infarction, Unspecified",Emergency Dept,DOC-00009
+ENC-000360,PAT-02352,59,F,2024-04-15 04:34:37,2024-04-18 21:02:36,Rehab,J96.01,Acute Respiratory Failure with Hypoxia,MedSurg East,DOC-00166
+ENC-000361,PAT-03444,69,F,2024-10-24 01:56:12,2024-10-24 13:56:12,Home,N39.0,Urinary Tract Infection,Emergency Dept,DOC-00097
+ENC-000362,PAT-03078,44,M,2025-05-29 00:42:25,2025-06-04 09:18:10,Rehab,N17.9,"Acute Kidney Injury, Unspecified",Telemetry,DOC-00168
+ENC-000363,PAT-02849,67,M,2025-02-21 07:13:26,2025-02-24 17:35:33,Home,N17.9,"Acute Kidney Injury, Unspecified",MedSurg East,DOC-00187
+ENC-000364,PAT-01825,65,M,2024-08-19 17:53:21,2024-08-25 02:44:38,Home,J96.01,Acute Respiratory Failure with Hypoxia,Telemetry,DOC-00140
+ENC-000365,PAT-03475,56,F,2024-07-11 05:57:31,2024-07-13 19:15:37,Home,N17.9,"Acute Kidney Injury, Unspecified",Telemetry,DOC-00071
+ENC-000366,PAT-01545,67,M,2025-05-27 18:58:36,2025-05-31 01:20:01,Home,I48.91,"Atrial Fibrillation, Unspecified",ICU,DOC-00005
+ENC-000367,PAT-01972,71,M,2025-04-06 07:55:17,2025-04-07 10:08:07,Home,S72.001A,Hip Fracture,ICU,DOC-00173
+ENC-000368,PAT-05762,80,M,2024-02-04 08:37:56,2024-02-09 02:31:00,Home,I21.9,"Acute Myocardial Infarction, Unspecified",MedSurg East,DOC-00139
+ENC-000369,PAT-01780,68,M,2024-08-12 16:15:41,2024-08-21 19:48:54,Home,N39.0,Urinary Tract Infection,ICU,DOC-00188
+ENC-000370,PAT-04720,89,F,2025-08-23 01:09:21,2025-08-28 21:02:44,Skilled Nursing Facility,K92.0,Gastrointestinal Hemorrhage,MedSurg West,DOC-00061
+ENC-000371,PAT-02473,37,M,2025-02-08 20:49:26,2025-02-09 08:49:26,Home,J18.9,"Pneumonia, Unspecified",Emergency Dept,DOC-00071
+ENC-000372,PAT-00500,55,M,2024-11-27 19:35:45,2024-12-01 16:02:53,Skilled Nursing Facility,I50.9,"Heart Failure, Unspecified",MedSurg West,DOC-00089
+ENC-000373,PAT-05271,72,F,2024-09-04 13:38:27,2024-09-07 06:05:46,Skilled Nursing Facility,E11.65,Type 2 Diabetes with Hyperglycemia,Telemetry,DOC-00039
+ENC-000374,PAT-02457,67,F,2025-02-21 19:42:34,2025-02-24 02:39:03,Home,K85.9,"Acute Pancreatitis, Unspecified",MedSurg East,DOC-00058
+ENC-000375,PAT-02464,55,M,2025-12-11 12:00:41,2025-12-12 11:36:42,Home,E11.65,Type 2 Diabetes with Hyperglycemia,Telemetry,DOC-00107
+ENC-000376,PAT-04566,51,M,2024-07-17 01:27:48,2024-07-18 03:46:56,Home,G40.909,"Epilepsy, Unspecified",MedSurg East,DOC-00021
+ENC-000377,PAT-03685,50,F,2025-07-16 19:14:16,2025-07-26 03:53:59,Rehab,I50.9,"Heart Failure, Unspecified",ICU,DOC-00069
+ENC-000378,PAT-03090,50,M,2024-05-26 03:37:04,2024-05-29 10:57:34,Rehab,S72.001A,Hip Fracture,Emergency Dept,DOC-00186
+ENC-000379,PAT-05501,72,M,2025-11-06 08:10:02,2025-11-10 12:14:21,Expired,J18.9,"Pneumonia, Unspecified",MedSurg West,DOC-00004
+ENC-000380,PAT-01736,52,M,2024-04-01 02:55:56,2024-04-02 21:10:41,Skilled Nursing Facility,I48.91,"Atrial Fibrillation, Unspecified",Emergency Dept,DOC-00123
+ENC-000381,PAT-01988,56,M,2024-07-04 21:27:08,2024-07-08 22:30:31,Skilled Nursing Facility,I48.91,"Atrial Fibrillation, Unspecified",MedSurg East,DOC-00073
+ENC-000382,PAT-03119,95,F,2024-10-06 01:05:00,2024-10-09 15:40:20,Home,K92.0,Gastrointestinal Hemorrhage,MedSurg West,DOC-00132
+ENC-000383,PAT-04074,82,F,2025-07-15 02:45:54,2025-07-19 04:56:10,Home,K85.9,"Acute Pancreatitis, Unspecified",ICU,DOC-00082
+ENC-000384,PAT-01665,64,F,2024-02-05 12:11:51,2024-02-12 20:23:45,Skilled Nursing Facility,I21.9,"Acute Myocardial Infarction, Unspecified",MedSurg East,DOC-00190
+ENC-000385,PAT-01196,55,M,2025-12-27 01:09:24,,,S72.001A,Hip Fracture,MedSurg East,DOC-00149
+ENC-000386,PAT-05899,75,F,2024-06-01 09:16:47,2024-06-04 01:28:52,Home,E11.65,Type 2 Diabetes with Hyperglycemia,MedSurg East,DOC-00146
+ENC-000387,PAT-02014,74,F,2025-06-15 22:27:58,2025-06-21 16:20:55,Home,I48.91,"Atrial Fibrillation, Unspecified",MedSurg West,DOC-00126
+ENC-000388,PAT-05928,74,F,2025-07-23 03:51:52,2025-07-23 19:41:37,Rehab,N17.9,"Acute Kidney Injury, Unspecified",MedSurg West,DOC-00036
+ENC-000389,PAT-05901,54,F,2025-11-21 18:57:23,2025-11-25 02:16:31,Home,G40.909,"Epilepsy, Unspecified",MedSurg East,DOC-00016
+ENC-000390,PAT-04293,63,M,2024-02-27 17:37:09,2024-03-04 18:51:34,Against Medical Advice,G40.909,"Epilepsy, Unspecified",Telemetry,DOC-00013
+ENC-000391,PAT-00053,67,F,2025-05-04 21:07:51,2025-05-07 01:47:09,Home,J96.01,Acute Respiratory Failure with Hypoxia,ICU,DOC-00039
+ENC-000392,PAT-00075,70,M,2024-10-16 20:57:54,2024-10-21 21:28:23,Home,G40.909,"Epilepsy, Unspecified",MedSurg West,DOC-00171
+ENC-000393,PAT-05051,73,F,2024-01-13 05:15:41,2024-01-20 10:06:29,Home,A41.9,"Sepsis, Unspecified",Telemetry,DOC-00106
+ENC-000394,PAT-00098,77,M,2024-08-01 09:32:18,2024-08-06 02:46:44,Home,J18.9,"Pneumonia, Unspecified",MedSurg West,DOC-00005
+ENC-000395,PAT-04115,63,F,2025-12-07 15:24:17,2025-12-08 03:24:17,Home,N39.0,Urinary Tract Infection,Telemetry,DOC-00025
+ENC-000396,PAT-04296,71,M,2025-04-26 09:33:08,2025-04-30 14:43:16,Home,K85.9,"Acute Pancreatitis, Unspecified",MedSurg East,DOC-00091
+ENC-000397,PAT-02190,69,F,2024-11-11 08:53:58,2024-11-13 17:46:24,Home,I21.9,"Acute Myocardial Infarction, Unspecified",ICU,DOC-00179
+ENC-000398,PAT-01851,48,F,2025-10-20 13:23:18,2025-10-27 16:34:39,Home,K85.9,"Acute Pancreatitis, Unspecified",Telemetry,DOC-00167
+ENC-000399,PAT-00260,64,M,2024-10-19 22:57:01,2024-10-25 02:51:44,Skilled Nursing Facility,I50.9,"Heart Failure, Unspecified",MedSurg West,DOC-00164
+ENC-000400,PAT-00078,65,M,2025-10-18 14:05:22,2025-10-24 21:01:54,Home,I48.91,"Atrial Fibrillation, Unspecified",ICU,DOC-00085
+ENC-000401,PAT-04636,79,M,2025-12-14 22:14:21,2025-12-15 17:07:51,Home,I21.9,"Acute Myocardial Infarction, Unspecified",Emergency Dept,DOC-00178
+ENC-000402,PAT-04644,66,F,2025-12-18 19:34:38,2025-12-21 16:35:16,Home,N39.0,Urinary Tract Infection,MedSurg East,DOC-00072
+ENC-000403,PAT-04449,58,M,2025-10-22 13:07:10,2025-10-25 17:28:45,Home,I21.9,"Acute Myocardial Infarction, Unspecified",MedSurg East,DOC-00151
+ENC-000404,PAT-01182,68,F,2024-08-20 10:55:32,2024-08-21 06:32:00,Home,I21.9,"Acute Myocardial Infarction, Unspecified",Emergency Dept,DOC-00146
+ENC-000405,PAT-03188,83,F,2025-07-28 13:50:58,2025-07-30 14:06:29,Home,J96.01,Acute Respiratory Failure with Hypoxia,MedSurg East,DOC-00186
+ENC-000406,PAT-00643,62,F,2024-12-05 11:54:56,2024-12-10 09:03:17,Home,J44.1,COPD with Acute Exacerbation,ICU,DOC-00088
+ENC-000407,PAT-04958,86,F,2024-09-10 12:06:06,2024-09-11 20:40:31,Home,J18.9,"Pneumonia, Unspecified",Emergency Dept,DOC-00116
+ENC-000408,PAT-04020,80,M,2024-10-18 14:27:59,2024-10-19 10:21:34,Home,G40.909,"Epilepsy, Unspecified",MedSurg East,DOC-00150
+ENC-000409,PAT-05413,69,F,2025-04-25 11:50:09,2025-05-04 08:41:21,Home,I21.9,"Acute Myocardial Infarction, Unspecified",ICU,DOC-00183
+ENC-000410,PAT-00603,66,M,2024-10-22 03:42:47,2024-10-28 02:03:22,Skilled Nursing Facility,G40.909,"Epilepsy, Unspecified",MedSurg East,DOC-00040
+ENC-000411,PAT-03192,57,F,2024-03-12 02:03:52,2024-03-18 16:54:47,Home,J18.9,"Pneumonia, Unspecified",MedSurg East,DOC-00114
+ENC-000412,PAT-02949,95,F,2024-03-08 19:20:18,2024-03-13 22:00:50,Home,I63.9,"Cerebral Infarction, Unspecified",ICU,DOC-00143
+ENC-000413,PAT-04545,58,F,2024-03-10 14:36:58,2024-03-21 04:03:35,Home,J44.1,COPD with Acute Exacerbation,ICU,DOC-00153
+ENC-000414,PAT-04900,88,F,2024-01-10 14:02:44,2024-01-11 08:48:23,Home,E11.65,Type 2 Diabetes with Hyperglycemia,Emergency Dept,DOC-00200
+ENC-000415,PAT-00694,58,M,2024-05-11 17:15:17,2024-05-14 22:55:44,Skilled Nursing Facility,N17.9,"Acute Kidney Injury, Unspecified",MedSurg West,DOC-00036
+ENC-000416,PAT-02203,44,F,2024-04-23 08:25:20,2024-04-25 07:31:36,Home,E11.65,Type 2 Diabetes with Hyperglycemia,MedSurg East,DOC-00071
+ENC-000417,PAT-03450,49,F,2024-02-29 17:55:05,2024-03-03 00:15:49,Home,I21.9,"Acute Myocardial Infarction, Unspecified",MedSurg West,DOC-00185
+ENC-000418,PAT-05121,64,F,2024-05-31 21:16:59,2024-06-05 03:43:31,Home,N17.9,"Acute Kidney Injury, Unspecified",MedSurg West,DOC-00078
+ENC-000419,PAT-00056,88,F,2025-04-26 17:13:13,2025-04-28 12:29:57,Home,K85.9,"Acute Pancreatitis, Unspecified",MedSurg East,DOC-00085
+ENC-000420,PAT-03607,79,F,2025-10-01 15:48:34,2025-10-05 00:44:16,Rehab,S72.001A,Hip Fracture,MedSurg West,DOC-00035
+ENC-000421,PAT-02462,64,F,2025-06-24 01:11:16,2025-06-29 04:46:44,Home,K92.0,Gastrointestinal Hemorrhage,MedSurg West,DOC-00046
+ENC-000422,PAT-03263,48,F,2025-06-23 18:57:06,2025-06-28 08:30:26,Skilled Nursing Facility,S72.001A,Hip Fracture,MedSurg East,DOC-00063
+ENC-000423,PAT-02670,67,F,2025-09-02 09:36:50,2025-09-07 04:27:05,Home,J44.1,COPD with Acute Exacerbation,MedSurg East,DOC-00145
+ENC-000424,PAT-01637,69,M,2025-03-03 06:35:29,2025-03-13 21:54:33,Home,J96.01,Acute Respiratory Failure with Hypoxia,Telemetry,DOC-00119
+ENC-000425,PAT-05803,55,M,2024-08-14 06:48:26,2024-08-17 00:31:09,Rehab,J44.1,COPD with Acute Exacerbation,MedSurg West,DOC-00105
+ENC-000426,PAT-05514,55,F,2024-08-23 05:12:34,2024-08-27 18:00:54,Home,G40.909,"Epilepsy, Unspecified",ICU,DOC-00040
+ENC-000427,PAT-05860,55,F,2024-02-27 10:48:36,2024-03-05 22:09:03,Home,S72.001A,Hip Fracture,Telemetry,DOC-00123
+ENC-000428,PAT-04770,86,F,2025-12-18 07:12:30,2025-12-20 23:00:45,Expired,J96.01,Acute Respiratory Failure with Hypoxia,MedSurg West,DOC-00108
+ENC-000429,PAT-04454,52,M,2024-10-06 06:06:55,2024-10-11 22:24:00,Skilled Nursing Facility,I48.91,"Atrial Fibrillation, Unspecified",Telemetry,DOC-00138
+ENC-000430,PAT-04865,56,M,2024-07-11 19:21:38,2024-07-19 21:43:53,Skilled Nursing Facility,K92.0,Gastrointestinal Hemorrhage,ICU,DOC-00043
+ENC-000431,PAT-05301,68,M,2025-05-16 00:15:11,2025-05-16 18:41:50,Skilled Nursing Facility,E11.65,Type 2 Diabetes with Hyperglycemia,MedSurg West,DOC-00193
+ENC-000432,PAT-02717,88,F,2024-03-17 14:09:34,2024-03-29 04:15:45,Home,A41.9,"Sepsis, Unspecified",ICU,DOC-00192
+ENC-000433,PAT-04250,55,M,2024-10-30 19:16:09,2024-11-02 19:51:34,Home,G40.909,"Epilepsy, Unspecified",MedSurg West,DOC-00151
+ENC-000434,PAT-05657,69,M,2024-01-20 01:52:51,2024-01-24 13:08:05,Home,J18.9,"Pneumonia, Unspecified",MedSurg East,DOC-00107
+ENC-000435,PAT-00704,74,M,2025-07-21 02:59:45,2025-07-30 15:36:29,Home,J18.9,"Pneumonia, Unspecified",Telemetry,DOC-00088
+ENC-000436,PAT-03731,62,M,2024-09-27 12:47:17,2024-09-29 17:40:11,Home,I63.9,"Cerebral Infarction, Unspecified",MedSurg West,DOC-00185
+ENC-000437,PAT-05708,44,F,2024-08-21 05:19:41,2024-08-23 13:26:36,Home,J96.01,Acute Respiratory Failure with Hypoxia,MedSurg East,DOC-00030
+ENC-000438,PAT-00186,64,F,2025-06-09 22:47:31,2025-06-17 08:07:50,Rehab,N39.0,Urinary Tract Infection,MedSurg West,DOC-00190
+ENC-000439,PAT-01999,57,M,2024-09-14 02:05:39,2024-09-18 08:02:09,Skilled Nursing Facility,I63.9,"Cerebral Infarction, Unspecified",MedSurg West,DOC-00060
+ENC-000440,PAT-03319,64,M,2025-05-25 13:06:27,2025-05-31 17:21:01,Home,I50.9,"Heart Failure, Unspecified",MedSurg East,DOC-00189
+ENC-000441,PAT-05031,95,M,2024-11-29 15:26:43,2024-12-02 09:09:48,Home,J96.01,Acute Respiratory Failure with Hypoxia,MedSurg West,DOC-00055
+ENC-000442,PAT-01686,57,F,2025-09-20 03:48:57,2025-09-27 06:27:55,Rehab,S72.001A,Hip Fracture,Telemetry,DOC-00027
+ENC-000443,PAT-04399,75,M,2024-06-02 01:43:50,2024-06-09 13:34:21,Home,J18.9,"Pneumonia, Unspecified",MedSurg East,DOC-00172
+ENC-000444,PAT-04010,73,F,2025-04-19 19:36:53,2025-04-22 21:34:07,Home,J44.1,COPD with Acute Exacerbation,MedSurg West,DOC-00090
+ENC-000445,PAT-02884,73,F,2025-09-24 01:10:49,2025-09-30 01:35:52,Skilled Nursing Facility,I48.91,"Atrial Fibrillation, Unspecified",MedSurg West,DOC-00077
+ENC-000446,PAT-05034,77,M,2024-08-31 06:12:19,2024-09-06 00:38:30,Home,J18.9,"Pneumonia, Unspecified",Telemetry,DOC-00030
+ENC-000447,PAT-01500,81,F,2025-01-31 18:27:56,2025-02-08 04:37:23,Home,S72.001A,Hip Fracture,Telemetry,DOC-00036
+ENC-000448,PAT-04709,85,F,2025-01-13 00:11:25,2025-01-18 02:31:42,Skilled Nursing Facility,J96.01,Acute Respiratory Failure with Hypoxia,MedSurg West,DOC-00166
+ENC-000449,PAT-01420,62,M,2024-04-18 23:19:01,2024-04-23 01:33:33,Home,K85.9,"Acute Pancreatitis, Unspecified",MedSurg West,DOC-00116
+ENC-000450,PAT-05075,83,M,2024-01-08 10:38:53,2024-01-08 23:45:46,Home,I21.9,"Acute Myocardial Infarction, Unspecified",Emergency Dept,DOC-00099
+ENC-000451,PAT-04601,70,F,2025-01-16 22:26:05,2025-01-19 22:45:16,Home,K85.9,"Acute Pancreatitis, Unspecified",MedSurg West,DOC-00114
+ENC-000452,PAT-04004,65,M,2024-01-24 23:17:06,2024-02-04 00:08:00,Rehab,I21.9,"Acute Myocardial Infarction, Unspecified",ICU,DOC-00075
+ENC-000453,PAT-00268,67,F,2024-08-12 05:12:16,2024-08-16 02:38:00,Home,I63.9,"Cerebral Infarction, Unspecified",MedSurg East,DOC-00145
+ENC-000454,PAT-04058,44,M,2024-07-27 01:48:40,2024-08-01 08:49:52,Rehab,K85.9,"Acute Pancreatitis, Unspecified",MedSurg West,DOC-00094
+ENC-000455,PAT-04441,74,M,2024-12-08 19:40:09,2024-12-18 17:27:52,Home,E11.65,Type 2 Diabetes with Hyperglycemia,Telemetry,DOC-00027
+ENC-000456,PAT-05355,60,M,2024-01-26 00:49:05,2024-01-30 06:32:14,Home,K92.0,Gastrointestinal Hemorrhage,MedSurg East,DOC-00023
+ENC-000457,PAT-03597,68,M,2024-07-03 00:59:40,2024-07-11 11:38:29,Home,J96.01,Acute Respiratory Failure with Hypoxia,Telemetry,DOC-00151
+ENC-000458,PAT-05646,63,F,2025-04-19 00:06:16,2025-04-20 10:15:41,Skilled Nursing Facility,N17.9,"Acute Kidney Injury, Unspecified",Emergency Dept,DOC-00158
+ENC-000459,PAT-01141,74,M,2025-09-17 14:29:56,2025-09-22 13:41:43,Home,K92.0,Gastrointestinal Hemorrhage,Telemetry,DOC-00137
+ENC-000460,PAT-02303,58,M,2025-06-30 20:30:48,2025-07-05 01:01:46,Home,S72.001A,Hip Fracture,MedSurg East,DOC-00069
+ENC-000461,PAT-04215,81,M,2025-08-05 14:46:05,2025-08-08 17:39:32,Rehab,N39.0,Urinary Tract Infection,ICU,DOC-00016
+ENC-000462,PAT-02272,66,M,2024-04-13 01:32:12,2024-04-15 19:31:45,Home,J96.01,Acute Respiratory Failure with Hypoxia,Telemetry,DOC-00083
+ENC-000463,PAT-02028,82,F,2025-03-24 11:59:31,2025-03-25 06:04:44,Skilled Nursing Facility,G40.909,"Epilepsy, Unspecified",MedSurg West,DOC-00107
+ENC-000464,PAT-03074,56,F,2025-09-09 04:23:31,2025-09-16 12:21:04,Expired,J44.1,COPD with Acute Exacerbation,ICU,DOC-00104
+ENC-000465,PAT-04224,88,F,2025-11-12 10:22:51,2025-11-16 18:26:08,Home,I63.9,"Cerebral Infarction, Unspecified",Telemetry,DOC-00084
+ENC-000466,PAT-04768,56,M,2025-10-20 00:20:36,2025-10-22 17:15:41,Skilled Nursing Facility,J96.01,Acute Respiratory Failure with Hypoxia,Emergency Dept,DOC-00118
+ENC-000467,PAT-05201,43,F,2025-09-10 00:30:41,2025-09-10 12:30:41,Home,I21.9,"Acute Myocardial Infarction, Unspecified",Emergency Dept,DOC-00110
+ENC-000468,PAT-01736,71,F,2025-10-05 09:26:39,2025-10-08 04:32:44,Home,A41.9,"Sepsis, Unspecified",MedSurg East,DOC-00148
+ENC-000469,PAT-01070,49,F,2025-11-25 12:15:03,2025-12-01 18:45:07,Skilled Nursing Facility,I50.9,"Heart Failure, Unspecified",Telemetry,DOC-00012
+ENC-000470,PAT-00816,68,F,2025-12-22 21:53:04,2025-12-27 10:04:14,Rehab,I63.9,"Cerebral Infarction, Unspecified",ICU,DOC-00117
+ENC-000471,PAT-00006,45,F,2025-06-18 20:16:58,2025-06-24 09:21:38,Expired,N39.0,Urinary Tract Infection,MedSurg East,DOC-00167
+ENC-000472,PAT-02473,74,M,2025-11-11 20:54:57,2025-11-12 23:48:41,Home,G40.909,"Epilepsy, Unspecified",Emergency Dept,DOC-00093
+ENC-000473,PAT-02052,92,M,2025-12-03 00:03:29,2025-12-04 15:53:38,Skilled Nursing Facility,I50.9,"Heart Failure, Unspecified",MedSurg East,DOC-00102
+ENC-000474,PAT-05125,42,F,2025-08-09 14:32:52,2025-08-12 09:01:59,Home,G40.909,"Epilepsy, Unspecified",Telemetry,DOC-00024
+ENC-000475,PAT-05765,64,M,2025-01-05 08:19:16,2025-01-12 06:38:29,Home,S72.001A,Hip Fracture,ICU,DOC-00058
+ENC-000476,PAT-04256,61,F,2025-06-24 06:52:11,2025-07-01 13:01:03,Home,J44.1,COPD with Acute Exacerbation,ICU,DOC-00109
+ENC-000477,PAT-05686,46,M,2024-06-26 19:52:44,2024-07-03 12:22:46,Home,J96.01,Acute Respiratory Failure with Hypoxia,MedSurg West,DOC-00027
+ENC-000478,PAT-00846,63,F,2024-08-20 10:31:25,2024-08-26 11:21:13,Home,I48.91,"Atrial Fibrillation, Unspecified",MedSurg East,DOC-00193
+ENC-000479,PAT-01091,70,M,2025-03-13 12:30:33,2025-03-21 02:11:43,Home,G40.909,"Epilepsy, Unspecified",ICU,DOC-00043
+ENC-000480,PAT-03606,73,F,2025-05-02 20:15:37,2025-05-08 11:07:22,Skilled Nursing Facility,N39.0,Urinary Tract Infection,Telemetry,DOC-00106
+ENC-000481,PAT-05047,74,F,2024-03-08 07:58:55,2024-03-10 14:18:06,Expired,N17.9,"Acute Kidney Injury, Unspecified",Emergency Dept,DOC-00193
+ENC-000482,PAT-01009,67,F,2024-11-29 12:23:10,2024-12-04 17:37:05,Home,N17.9,"Acute Kidney Injury, Unspecified",MedSurg East,DOC-00064
+ENC-000483,PAT-02269,63,M,2025-04-11 19:26:04,2025-04-18 11:45:36,Skilled Nursing Facility,S72.001A,Hip Fracture,MedSurg East,DOC-00073
+ENC-000484,PAT-05657,54,M,2025-05-26 09:33:56,2025-06-04 09:37:19,Rehab,I21.9,"Acute Myocardial Infarction, Unspecified",Telemetry,DOC-00133
+ENC-000485,PAT-04972,64,M,2024-08-17 13:18:11,2024-08-18 11:27:23,Skilled Nursing Facility,I48.91,"Atrial Fibrillation, Unspecified",Telemetry,DOC-00062
+ENC-000486,PAT-04055,66,F,2025-01-23 00:53:36,2025-01-27 04:39:27,Skilled Nursing Facility,J44.1,COPD with Acute Exacerbation,ICU,DOC-00136
+ENC-000487,PAT-00099,77,F,2024-04-12 12:20:21,2024-04-13 04:36:31,Home,K85.9,"Acute Pancreatitis, Unspecified",Emergency Dept,DOC-00146
+ENC-000488,PAT-03448,58,F,2024-05-14 04:40:19,2024-05-14 16:40:19,Rehab,I48.91,"Atrial Fibrillation, Unspecified",MedSurg West,DOC-00019
+ENC-000489,PAT-00137,58,M,2024-06-16 13:44:23,2024-06-17 01:44:23,Home,I50.9,"Heart Failure, Unspecified",ICU,DOC-00102
+ENC-000490,PAT-04151,41,F,2025-01-24 04:13:46,2025-01-29 11:55:45,Rehab,E11.65,Type 2 Diabetes with Hyperglycemia,MedSurg West,DOC-00180
+ENC-000491,PAT-03296,76,M,2025-02-21 14:37:20,2025-02-26 06:14:39,Skilled Nursing Facility,J18.9,"Pneumonia, Unspecified",MedSurg West,DOC-00022
+ENC-000492,PAT-02539,50,M,2024-06-06 19:52:32,2024-06-10 12:47:07,Home with Home Health,N17.9,"Acute Kidney Injury, Unspecified",MedSurg West,DOC-00138
+ENC-000493,PAT-02677,64,F,2025-08-15 19:31:44,2025-08-17 07:07:38,Rehab,G40.909,"Epilepsy, Unspecified",MedSurg West,DOC-00165
+ENC-000494,PAT-00542,87,F,2025-07-20 23:24:37,2025-07-27 16:03:07,Home with Home Health,I21.9,"Acute Myocardial Infarction, Unspecified",Telemetry,DOC-00015
+ENC-000495,PAT-02003,61,M,2024-03-31 02:08:47,2024-04-01 07:27:45,Home,S72.001A,Hip Fracture,Emergency Dept,DOC-00015
+ENC-000496,PAT-02534,68,M,2025-07-03 20:13:25,2025-07-04 08:13:25,Home,I50.9,"Heart Failure, Unspecified",ICU,DOC-00042
+ENC-000497,PAT-04067,61,F,2025-08-31 03:56:14,2025-09-02 14:24:07,Rehab,J18.9,"Pneumonia, Unspecified",MedSurg West,DOC-00043
+ENC-000498,PAT-03047,49,M,2025-11-09 10:28:32,2025-11-13 05:36:34,Home,N39.0,Urinary Tract Infection,Telemetry,DOC-00031
+ENC-000499,PAT-00241,91,F,2024-07-30 06:05:08,2024-08-05 08:32:10,Home,J18.9,"Pneumonia, Unspecified",Telemetry,DOC-00183
+ENC-000500,PAT-04724,56,M,2025-01-31 17:39:51,2025-02-05 16:20:53,Home,I63.9,"Cerebral Infarction, Unspecified",MedSurg West,DOC-00146
