@@ -1,86 +1,97 @@
-# 🏥 C3-Pipeline: Clinical Consult Communication & Care Analytics
 
-**An end-to-end data analytics pipeline that quantifies communication friction in hospital specialist consult workflows and identifies actionable bottlenecks for hospital leadership.**
-
-![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)
-![PySpark](https://img.shields.io/badge/PySpark-3.5+-E25A1C?style=flat-square&logo=apache-spark&logoColor=white)
-![DuckDB](https://img.shields.io/badge/DuckDB-0.10+-FFF000?style=flat-square&logo=duckdb&logoColor=black)
-![Tableau](https://img.shields.io/badge/Tableau-Public-E97627?style=flat-square&logo=tableau&logoColor=white)
-![Healthcare](https://img.shields.io/badge/Domain-Healthcare%20Analytics-27AE60?style=flat-square)
+# Clinical Consult Communication Pipeline - Project Case Study
 
 ---
 
-## 📋 Overview
+## The Problem
 
-In hospital settings, bedside nurses act as the de-facto communication hub between physicians and specialists. When a doctor orders a consult, the nurse pages, calls, and messages the specialist—often multiple times across fragmented channels. This "telephone tag" bottleneck **burns 45–60 minutes of nurse time per shift**, delays specialist consults, and contributes to nurse burnout.
+In hospital settings, bedside nurses serve as the main communication hub between physicians and specialists. When a doctor orders a consult, say "have Cardiology evaluate this patient," the nurse is responsible for calling the specialist, often multiple times across channels like chat apps, and voice badges.
 
-**C3-Pipeline** simulates a hospital's EHR and secure messaging platform data, processes it through a PySpark ETL pipeline, loads it into DuckDB for SQL analytics, and produces outputs for a Tableau Public dashboard—all designed to **quantify communication friction** and identify actionable bottlenecks.
+This creates a **bottleneck** that:
+- Burns **45–60 minutes** of nurse time per shift on communication tasks alone
+- Delays specialist consults, increasing patient **Length of Stay (LOS)**
+- Contributes directly to **nurse burnout** 
 
-### Target Audience
-| Stakeholder | Key Question |
-|:---|:---|
-| **Chief Nursing Officer (CNO)** | How can we reduce nurse communication burden? |
-| **Chief Medical Officer (CMO)** | Which specialties are missing consult SLA targets? |
-| **Hospital COO** | What's the financial cost of consult-related delays? |
+Hospital leadership—Chief Nursing Officers, Chief Medical Officers, and COOs—lack visibility into this friction. They know consults are slow but can't pinpoint *why*, *where*, or *how much it costs*.
 
 ---
 
-## 🏗️ Architecture
+## The Solution
 
-```
-┌──────────────┐    ┌──────────────┐    ┌──────────────┐    ┌──────────────┐
-│   Python     │    │   PySpark    │    │   DuckDB     │    │   Tableau    │
-│  Data Gen    │───▶│   ETL        │───▶│   SQL        │───▶│  Dashboard   │
-│              │    │  Pipeline    │    │  Analytics   │    │              │
-│ 4 tables     │    │ Cleaning     │    │ 7 queries    │    │ 5 visuals    │
-│ ~147K rows   │    │ Features     │    │ KPIs         │    │ 4 filters    │
-│ Faker+NumPy  │    │ Aggregation  │    │ Percentiles  │    │ Interactive  │
-└──────────────┘    └──────────────┘    └──────────────┘    └──────────────┘
-       │                   │                    │
-       ▼                   ▼                    ▼
-   data/raw/         data/processed/      c3_pipeline.duckdb
-   (CSV)             (Parquet + CSV)
-```
+I built **C3-Pipeline** (Clinical Consult Communication), an end-to-end data analytics pipeline that:
+
+1. **Generates** realistic synthetic hospital data simulating EHR and messaging platforms
+2. **Processes** raw data through a PySpark ETL pipeline with feature engineering
+3. **Analyzes** the data using DuckDB SQL queries answering 6 key business questions
+4. **Visualizes** findings in a Tableau Public executive dashboard
+
+
 
 ---
 
-## 🔑 Key Findings
+## Key Findings
 
-> **📊 Based on analysis of ~10,000 encounters, ~30,000 consults, and ~82,000 communication attempts**
-
-### 🔴 Specialty Bottlenecks
-- **Psychiatry** consults averaged **7.9 hours** to bedside—nearly **2× the 4-hour SLA target**
+### 1. Specialty Bottlenecks
+- **Psychiatry** consults averaged **7.9 hours** to bedside—nearly **2x the 4-hour SLA target**
 - **Cardiology** averaged **7.5 hours**, **87% above** the SLA target
-- P90 turnaround for Psychiatry: **12.9 hours**—over half a day
+- **Gastroenterology** was fastest at **4.3 hours**, just above the target
+- Only the fastest specialties come close to meeting a 4-hour SLA
 
-### 📱 Channel Effectiveness
-- Switching from **Legacy Pager → Secure App Chat** reduces response lag by **68%**
-- **Vocera Badge Call**: 3.1 min avg response (fastest)
-- **Legacy Pager**: 25.3 min avg response with **19.3% unread rate**
+### 2. Channel Effectiveness
+- **Vocera Badge Call** (real-time voice): **3.1 minute** average response
+- **Secure App Chat**: **8.2 minute** average response
+- **Legacy Pager**: **25.3 minute** average response—**8x slower** than Vocera
+- **Phone Call to Office**: **40.3 minute** average—**13x slower** than Vocera
+- Switching from Legacy Pager to Secure App Chat would reduce response lag by **68%**
 
-### 📅 Weekend Staffing Gap
-- Weekend consults took **2.5 hours longer** on average (7.5h vs. 5.0h)
-- Weekend Night Shift was the worst: **7.67 hours** average time-to-bedside
+### 3. Weekend Staffing Gap
+- **Weekend Night Shift**: 7.67 hours average time-to-bedside
+- **Weekday Day Shift**: 5.03 hours average
+- Weekend consults are **2.5 hours slower** on average, indicating a significant staffing gap
 
-### 💰 Financial Impact
-- **Estimated excess bed cost: $14.8M** over 2 years
-- Average **1.17 excess bed-days** per delayed encounter
-- At $2,500/bed-day (Florida average), this represents significant recoverable cost
+### 4. Financial Impact
+- **Total estimated excess bed cost: $14.8M** across 2 years of data
+- MedSurg units bear the highest cost burden ($3.5–3.7M per unit)
+- Average of **1.17 excess bed-days** per encounter with delays
+- At $2,500/bed-day (Florida average), even modest improvements yield significant savings
+
+### 5. Communication Friction
+- Average **2.8 nurse messages per consult** (target: < 2.0)
+- **88.6% message read rate** (target: > 90%)
+- Legacy Pager has a **19.3% unread rate**—nearly 1 in 5 pages are never seen
+
+---
+
+## Technical Implementation
+
+### Data Generation (Python + Faker)
+- Generated 4 synthetic tables totaling ~147,000 rows
+- Injected intentional bottlenecks to simulate real-world patterns
+- Maintained referential integrity across all tables
+
+### ETL Pipeline (PySpark)
+- Timestamp parsing and validation
+- Deduplication and referential integrity checks
+- Feature engineering: response lag, turnaround times, friction scores
+- Two aggregated analytical tables
+- Dual output: Parquet (portfolio showcase) + CSV (Tableau upload)
+
+### SQL Analytics (DuckDB)
+- 7 standalone SQL files covering turnaround, channel effectiveness, friction, weekday/weekend, cost estimation, and specialist rankings
+- Advanced SQL: CTEs, window functions, percentile calculations, conditional aggregation
+
+### Dashboard (Tableau Public)
+- 4 KPI scorecards with conditional color logic
+- Specialty bottleneck horizontal bar chart
+- Channel effectiveness comparison
+- Day/hour friction heatmap
+- Friction vs. delay scatter plot with trendline
+- Interactive filters: date range, specialty, unit, priority
+
 
 ---
 
-## 🛠️ Tech Stack
 
-| Layer | Tool | Purpose |
-|:---|:---|:---|
-| Data Generation | Python 3.10+, Faker, NumPy | Synthetic hospital data with injected bottlenecks |
-| Data Engineering | PySpark 3.5+ | ETL: cleaning, feature engineering, aggregation |
-| Analytical Database | DuckDB 0.10+ | In-process SQL analytics engine |
-| SQL Authoring | Standalone `.sql` files | 7 advanced queries with CTEs and window functions |
-| Visualization | Tableau Public | Executive dashboard with interactive filters |
-| Output Formats | CSV + Parquet | Dual output for Tableau and portfolio showcase |
-
----
 
 ## 📁 Repository Structure
 
@@ -161,32 +172,8 @@ Follow the detailed guide in `dashboard/tableau_step_by_step.md` to build the da
 
 ---
 
-## 📊 Data Schema
-
-| Table | Rows | Source | Description |
-|:---|:---|:---|:---|
-| `dim_encounters` | ~10,000 | EHR | Patient hospital stays |
-| `fact_consult_orders` | ~30,000 | EHR | Specialist consult requests |
-| `fact_communication_logs` | ~82,000 | Messaging | Nurse-to-specialist messages |
-| `fact_consult_completions` | ~25,000 | EHR | Completed specialist consults |
-| `agg_consult_friction` | ~30,000 | ETL | Per-consult friction metrics |
-| `agg_encounter_summary` | ~6,000 | ETL | Per-encounter summary stats |
+## Data Schema
 
 Full documentation: [Data Dictionary](docs/data_dictionary.md)
 
 ---
-
-## 🔮 Future Enhancements
-
-- 🤖 **ML-based SLA prediction** — Predict which consults will breach the 4-hour target
-- 📋 **Nurse satisfaction correlation** — Link survey data to communication friction metrics
-- 🌊 **Real-time streaming** — Kafka-based pipeline for live consult tracking
-- 💬 **NLP on messages** — Sentiment and urgency classification on communication text
-
----
-
-## 📄 Documentation
-
-- [Data Dictionary](docs/data_dictionary.md) — Column-level documentation for all tables
-- [Project Case Study](docs/project_writeup.md) — Detailed narrative and findings
-- [Tableau Build Guide](dashboard/tableau_step_by_step.md) — Step-by-step dashboard instructions

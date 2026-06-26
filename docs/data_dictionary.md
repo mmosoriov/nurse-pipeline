@@ -1,4 +1,4 @@
-# 📖 C3-Pipeline Data Dictionary
+# C3-Pipeline Data Dictionary
 
 This document provides column-level documentation for all tables in the C3-Pipeline analytical database.
 
@@ -9,13 +9,13 @@ This document provides column-level documentation for all tables in the C3-Pipel
 |:---|:---|
 | **EHR** | Electronic Health Record (simulating Epic Clarity/Caboodle) |
 | **MSG** | Secure Messaging Platform (simulating TigerConnect/Vocera) |
-| **ETL** | Derived during PySpark ETL pipeline |
+| **ETL** | Extract, Transform, Load (Derived during PySpark ETL pipeline) |
 
 ---
 
 ## Table 1: `dim_encounters`
 **Source**: EHR  
-**Grain**: One row per patient hospital stay (admission to discharge)  
+**Grain**: Encounters Dimension Table, One row per patient hospital stay (admission to discharge)  
 **Approximate Rows**: ~10,000
 
 | Column | Data Type | Nullable | Source | Description |
@@ -36,7 +36,7 @@ This document provides column-level documentation for all tables in the C3-Pipel
 
 ## Table 2: `fact_consult_orders`
 **Source**: EHR  
-**Grain**: One row per physician consult request  
+**Grain**: Consult orders Fact Table, One row per physician consult request  
 **Approximate Rows**: ~30,000
 
 | Column | Data Type | Nullable | Source | Description |
@@ -54,7 +54,7 @@ This document provides column-level documentation for all tables in the C3-Pipel
 
 ## Table 3: `fact_communication_logs`
 **Source**: MSG  
-**Grain**: One row per communication attempt by a nurse  
+**Grain**: Communication logs Fact table, One row per communication attempt by a nurse  
 **Approximate Rows**: ~82,000
 
 | Column | Data Type | Nullable | Source | Description |
@@ -74,7 +74,7 @@ This document provides column-level documentation for all tables in the C3-Pipel
 
 ## Table 4: `fact_consult_completions`
 **Source**: EHR + ETL  
-**Grain**: One row per completed specialist consult  
+**Grain**: Consult completions Fact Table, One row per completed specialist consult  
 **Approximate Rows**: ~25,500
 
 | Column | Data Type | Nullable | Source | Description |
