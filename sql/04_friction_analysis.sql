@@ -1,13 +1,9 @@
 -- ============================================================
 -- Query 3: Friction Analysis
 -- ============================================================
--- Business Question: Is there a correlation between the number
--- of nurse outreach messages and the consult turnaround time?
+-- Business Question: Is there a correlation between the number of nurse outreach messages and the consult turnaround time?
 --
--- Expected Finding: More communication attempts (higher friction)
--- should correlate with longer time-to-bedside delays, suggesting
--- that repeated follow-ups are a symptom of specialist
--- unresponsiveness rather than a solution.
+-- Finding: No statistical significance
 -- ============================================================
 
 WITH friction_buckets AS (

@@ -1,16 +1,9 @@
 -- ============================================================
 -- Query 5: Excess Bed-Day Cost Estimation
 -- ============================================================
--- Business Question: What is the estimated financial cost of
--- consult-related discharge delays?
+-- Business Question: What is the estimated financial cost of consult-related discharge delays?
 --
--- Assumption: Average hospital bed cost of $2,500/day
--- (industry average for Florida).
---
--- Expected Finding: ICU should have the highest total cost due
--- to longer stays and more complex consult patterns. The total
--- across all units represents the financial opportunity for
--- the hospital to recoup by improving consult workflows.
+-- Assumption: Average hospital bed cost = $2,500/day.
 -- ============================================================
 
 WITH encounter_delays AS (
@@ -25,7 +18,7 @@ WITH encounter_delays AS (
     FROM dim_encounters de
     JOIN agg_encounter_summary aes ON de.encounter_id = aes.encounter_id
     WHERE de.discharge_timestamp IS NOT NULL
-      AND aes.estimated_excess_bed_days > 0.5  -- At least half a day of delay
+      AND aes.estimated_excess_bed_days > 0.5
 )
 SELECT
     admitting_unit,

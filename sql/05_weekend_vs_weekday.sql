@@ -1,13 +1,9 @@
 -- ============================================================
--- Query 4: Weekend vs. Weekday Consult Turnaround
+-- Query 4: Weekend vs. Weekday Analysis
 -- ============================================================
--- Business Question: How much slower are consults completed on
--- weekends vs. weekdays? Does the shift (day/night) compound
--- the effect?
+-- Business Question: How much slower are consults completed on weekends vs. weekdays?
 --
--- Expected Finding: Weekend + Night Shift should be the slowest
--- combination, indicating a staffing gap that hospital
--- leadership can address.
+-- Finding: Weekend + Night Shift slowest combination.
 -- ============================================================
 
 SELECT

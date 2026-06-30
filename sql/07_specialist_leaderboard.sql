@@ -1,12 +1,7 @@
 -- ============================================================
--- Query 6: Specialist Performance Leaderboard (Bonus)
+-- Query 6: Specialist Performance Leaderboard
 -- ============================================================
--- Business Question: Which individual specialists have the
--- longest average response times?
---
--- Uses window functions to rank specialists within their
--- specialty. Filters to specialists with >= 10 completed
--- consults to ensure meaningful volume.
+-- Business Question: Which individual specialists have the longest average response times?
 -- ============================================================
 
 WITH specialist_stats AS (
@@ -21,7 +16,7 @@ WITH specialist_stats AS (
     JOIN fact_consult_orders co ON cc.consult_order_id = co.consult_order_id
     JOIN agg_consult_friction af ON co.consult_order_id = af.consult_order_id
     GROUP BY cc.specialist_id, cc.specialist_name, co.target_specialty
-    HAVING COUNT(*) >= 10  -- Only include specialists with meaningful volume
+    HAVING COUNT(*) >= 10
 )
 SELECT
     *,
