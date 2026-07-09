@@ -1,6 +1,7 @@
 # Data files (regenerated via notebooks)
 data/raw/
 data/processed/
+dashboard/data_tableau
 
 # Keep sample data
 !data/sample/
